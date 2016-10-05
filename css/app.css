@@ -272,11 +272,13 @@
 
 .testSquare {
   position: fixed;
-  width: 128px;
-  height: 47px;
+  width: 230px;
+  height: 18px;
   margin: auto;
-  top: 531px;
-  left: 558px;
+  top: 0;
+  bottom: 300px;
+  left: 0;
+  right: 0;
   border: 1px solid red;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -302,17 +304,164 @@
     -ms-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.4s;
     -o-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.4s;
     transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.4s; }
-    #fullWrapper #mbrtLoader h1 {
+    #fullWrapper #mbrtLoader .centeredWrapper {
       position: absolute;
       text-align: center;
-      width: 200px;
-      height: 50px;
+      width: 1024px;
+      height: 472px;
       line-height: 50px;
       margin: auto;
       top: 0;
       bottom: 0;
       left: 0;
       right: 0; }
+      #fullWrapper #mbrtLoader .centeredWrapper .innerLoaderBoxes {
+        position: relative;
+        display: table;
+        width: 100%; }
+      #fullWrapper #mbrtLoader .centeredWrapper .quotesBox {
+        height: 107px; }
+        #fullWrapper #mbrtLoader .centeredWrapper .quotesBox p {
+          position: absolute;
+          width: auto;
+          height: 35px;
+          line-height: 35px;
+          margin: auto;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          color: #97979b;
+          font-size: 24px;
+          -webkit-font-smoothing: antialiased !important;
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+          opacity: 0;
+          filter: alpha(opacity=0);
+          filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+          -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+          -webkit-transform: translateY(15px);
+          -moz-transform: translateY(15px);
+          -ms-transform: translateY(15px);
+          -o-transform: translateY(15px);
+          transform: translateY(15px);
+          -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+          -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+          -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+          -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+          transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1); }
+        #fullWrapper #mbrtLoader .centeredWrapper .quotesBox .active {
+          opacity: 1;
+          filter: alpha(opacity=100);
+          filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+          -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+          -webkit-transform: none;
+          -moz-transform: none;
+          -ms-transform: none;
+          -o-transform: none;
+          transform: none; }
+      #fullWrapper #mbrtLoader .centeredWrapper .loadingBox {
+        height: 170px; }
+        #fullWrapper #mbrtLoader .centeredWrapper .loadingBox h1 {
+          display: table-cell;
+          vertical-align: middle;
+          font-size: 39px; }
+      #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox {
+        height: 195px; }
+        #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons {
+          position: relative;
+          width: 172px;
+          height: 118px;
+          margin: auto;
+          margin-top: 29px;
+          left: 0;
+          right: 0; }
+          #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons i {
+            opacity: 0.4;
+            filter: alpha(opacity=40);
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+            -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
+          #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .active {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+            -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
+          #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .mouse {
+            position: absolute;
+            left: 0;
+            width: 42px;
+            height: 63px;
+            margin: auto;
+            top: 0;
+            bottom: 0; }
+            #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .mouse i {
+              position: absolute;
+              margin: auto;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0; }
+          #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .arrowKeys {
+            position: absolute;
+            right: 0;
+            width: 94px;
+            height: 63px;
+            margin: auto;
+            top: 0;
+            bottom: 0; }
+            #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .arrowKeys .keys {
+              position: absolute;
+              width: 32px;
+              height: 32px;
+              margin: auto; }
+            #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .arrowKeys .upKey {
+              left: 0;
+              right: 0;
+              top: 0; }
+            #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .arrowKeys .downKey {
+              left: 0;
+              right: 0;
+              bottom: 0; }
+            #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .arrowKeys .leftKey {
+              left: 0;
+              bottom: 0; }
+            #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .arrowKeys .rightKey {
+              right: 0;
+              bottom: 0; }
+        #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .description {
+          position: relative;
+          display: table;
+          width: 100%;
+          height: 48px; }
+          #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .description p {
+            display: table-cell;
+            color: #97979b;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased !important;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+            opacity: 0;
+            filter: alpha(opacity=0);
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+            -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+            -webkit-transform: translateY(15px);
+            -moz-transform: translateY(15px);
+            -ms-transform: translateY(15px);
+            -o-transform: translateY(15px);
+            transform: translateY(15px);
+            -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1); }
+          #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .description .active {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+            -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+            -webkit-transform: none;
+            -moz-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none; }
   #fullWrapper .crystalLoader {
     opacity: 0;
     filter: alpha(opacity=0);
@@ -1460,22 +1609,42 @@
       -ms-transform: translateY(-100%);
       -o-transform: translateY(-100%);
       transform: translateY(-100%); }
-    #fullWrapper #mbrtWrapper .sprite {
-      background-image: url(../img/icons/sprite_nav.png);
-      background-repeat: no-repeat;
-      display: block; }
-    #fullWrapper #mbrtWrapper .sprite-leftArrow {
-      width: 20px;
-      height: 35px;
-      background-position: -5px -5px; }
-    #fullWrapper #mbrtWrapper .sprite-rightArrow {
-      width: 20px;
-      height: 35px;
-      background-position: -30px -5px; }
-    #fullWrapper #mbrtWrapper .sprite-downArrow {
-      width: 40px;
-      height: 40px;
-      background-position: -5px -45px; }
+  #fullWrapper .sprite {
+    background-image: url(../img/icons/sprite_nav.png);
+    background-repeat: no-repeat;
+    display: block; }
+  #fullWrapper .sprite-mouse {
+    width: 40px;
+    height: 65px;
+    background-position: -5px -90px; }
+  #fullWrapper .sprite-upKey {
+    width: 32px;
+    height: 32px;
+    background-position: -55px -5px; }
+  #fullWrapper .sprite-downKey {
+    width: 32px;
+    height: 32px;
+    background-position: -55px -42px; }
+  #fullWrapper .sprite-leftKey {
+    width: 32px;
+    height: 32px;
+    background-position: -55px -79px; }
+  #fullWrapper .sprite-rightKey {
+    width: 32px;
+    height: 32px;
+    background-position: -55px -116px; }
+  #fullWrapper .sprite-leftArrow {
+    width: 20px;
+    height: 35px;
+    background-position: -5px -5px; }
+  #fullWrapper .sprite-rightArrow {
+    width: 20px;
+    height: 35px;
+    background-position: -30px -5px; }
+  #fullWrapper .sprite-downArrow {
+    width: 40px;
+    height: 40px;
+    background-position: -5px -45px; }
 
 @media screen and (max-width: 1849px) {
   #fullWrapper #mbrtWrapper #rightBarsNav {

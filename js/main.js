@@ -1,18 +1,18 @@
 	// VARS LOAD CURRENT SECTION
 	var currentSectionId;
 
-	window.onload = function(){
-		setTimeout(function(){
-			// Fade out loader
-			$('#mbrtLoader').addClass('crystalLoader');
+	// window.onload = function(){
+	// 	setTimeout(function(){
+	// 		// Fade out loader
+	// 		$('#mbrtLoader').addClass('crystalLoader');
 			
-			// Restart Intro gif animation
-			$('#mbrtGIF').attr('src', 'img/brand/main_logo.gif?' + Math.random() + ' alt="Mandelbrot Brands Studio">');
+	// 		// Restart Intro gif animation
+	// 		$('#mbrtGIF').attr('src', 'img/brand/main_logo.gif?' + Math.random() + ' alt="Mandelbrot Brands Studio">');
 
-			// Remove loader after fadeout is complete
-			setTimeout(function(){$('#mbrtLoader').remove();},1600);
-		}, 900);
-	};
+	// 		// Remove loader after fadeout is complete
+	// 		setTimeout(function(){$('#mbrtLoader').remove();},1600);
+	// 	}, 900);
+	// };
 
 	$(document).ready(function(){
 		Slider.init();
