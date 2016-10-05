@@ -21,11 +21,11 @@
 
 .testSquare{
 	position: fixed;
-	width: 208px;
+	width: 128px;
 	height: 47px;
 	margin: auto;
-	top: 556px;
-	left: 216px;
+	top: 531px;
+	left: 558px;
 	border: 1px solid red;
 	@include boxSizeFit();
 	z-index: 1000;
@@ -931,14 +931,14 @@
 				.contactLetter{
 					position: absolute;
 					width: 67.4%;
-					height: 45.5%;
+					height: 40%;
 					margin: auto;
 					top: 0; bottom: 0; left: 0; right: 0;
 
 					.topBox{
 						position: relative;
 						width: 100%;
-						height: 21.5%;
+						height: 28%;
 						margin-bottom: 12.7%;
 
 						.contactTitle{
@@ -997,12 +997,11 @@
 					.bottomBox{
 						position: relative;
 						width: 100%;
-						height: 48.2%;
+						height: 18%;
 						@include boxSizeFit();
 
 						.contactColumns{
 							@include displayLeft();
-							width: 24%;
 							height: 100%;
 
 							.indexRow{
@@ -1014,7 +1013,7 @@
 									font-size: 34.5px;
 									line-height: 0.9em;
 									border-right: 2px solid $mid-gray;
-									padding-right: 3.2%;
+									padding-right: 5%;
 								}
 							}
 
@@ -1027,7 +1026,7 @@
 									line-height: 1.5em;
 								}
 
-								.innerFootRow{
+								.innerFootRow, .innerCells{
 									font-size: 19.9px;
 									font-variant-numeric: lining-nums; 
 									margin-top: -0.6%;
@@ -1051,7 +1050,21 @@
 								.innerHeadRow{
 									margin-bottom: 3%;
 								}
+
+								.innerCells{
+									width: auto;
+									@include displayLeft();
+									@include boxSizeFit();
+									padding-right: 13%;
+								}
 							}
+						}
+
+						#contactColumn-1{
+							width: 18%;
+						}
+						#contactColumn-2{
+							width: 82%;
 						}
 					}
 				}

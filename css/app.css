@@ -272,11 +272,11 @@
 
 .testSquare {
   position: fixed;
-  width: 208px;
+  width: 128px;
   height: 47px;
   margin: auto;
-  top: 556px;
-  left: 216px;
+  top: 531px;
+  left: 558px;
   border: 1px solid red;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1275,7 +1275,7 @@
     #fullWrapper #mbrtWrapper .contactSection .contactLetter {
       position: absolute;
       width: 67.4%;
-      height: 45.5%;
+      height: 40%;
       margin: auto;
       top: 0;
       bottom: 0;
@@ -1284,7 +1284,7 @@
       #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox {
         position: relative;
         width: 100%;
-        height: 21.5%;
+        height: 28%;
         margin-bottom: 12.7%; }
         #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactTitle {
           position: relative;
@@ -1366,7 +1366,7 @@
       #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox {
         position: relative;
         width: 100%;
-        height: 48.2%;
+        height: 18%;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box; }
@@ -1379,7 +1379,6 @@
           /* Fix for IE7 */
           *display: inline;
           /* Fix for IE7 */
-          width: 24%;
           height: 100%; }
           #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow {
             height: 15%; }
@@ -1389,19 +1388,19 @@
               font-size: 34.5px;
               line-height: 0.9em;
               border-right: 2px solid #97979b;
-              padding-right: 3.2%; }
+              padding-right: 5%; }
           #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow {
             width: 100%; }
             #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerHeadRow {
               font-weight: 700;
               font-size: 25px;
               line-height: 1.5em; }
-            #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerFootRow {
+            #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerFootRow, #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerCells {
               font-size: 19.9px;
               font-variant-numeric: lining-nums;
               margin-top: -0.6%;
               margin-bottom: 10.6%; }
-              #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerFootRow a {
+              #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerFootRow a, #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerCells a {
                 text-decoration: none;
                 color: #97979b; }
           #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .secondRow {
@@ -1412,6 +1411,24 @@
               color: #97979b; }
             #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .secondRow .innerHeadRow {
               margin-bottom: 3%; }
+            #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .secondRow .innerCells {
+              width: auto;
+              position: relative;
+              float: left;
+              display: inline-block;
+              vertical-align: top;
+              zoom: 1;
+              /* Fix for IE7 */
+              *display: inline;
+              /* Fix for IE7 */
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              padding-right: 13%; }
+        #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox #contactColumn-1 {
+          width: 18%; }
+        #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox #contactColumn-2 {
+          width: 82%; }
     #fullWrapper #mbrtWrapper .activeSlide {
       display: block;
       opacity: 1;
