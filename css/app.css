@@ -1,0 +1,1956 @@
+@-webkit-keyframes writingBar {
+  0% {
+    border-right: 4px solid #97979b; }
+  100% {
+    border-right: 4px solid rgba(151, 151, 155, 0); } }
+@-moz-keyframes writingBar {
+  0% {
+    border-right: 4px solid #97979b; }
+  100% {
+    border-right: 4px solid rgba(151, 151, 155, 0); } }
+@-ms-keyframes writingBar {
+  0% {
+    border-right: 4px solid #97979b; }
+  100% {
+    border-right: 4px solid rgba(151, 151, 155, 0); } }
+@-o-keyframes writingBar {
+  0% {
+    border-right: 4px solid #97979b; }
+  100% {
+    border-right: 4px solid rgba(151, 151, 155, 0); } }
+@keyframes writingBar {
+  0% {
+    border-right: 4px solid #97979b; }
+  100% {
+    border-right: 4px solid rgba(151, 151, 155, 0); } }
+.activeTitle:before {
+  max-width: 100% !important; }
+
+.activeTitle {
+  color: #fff !important; }
+
+#section-0 #mainLogo {
+  position: absolute;
+  width: 662px;
+  height: 384px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 232px; }
+  #section-0 #mainLogo img {
+    position: absolute;
+    width: 100%; }
+#section-0 #startExploring {
+  position: absolute;
+  width: 50px;
+  height: 80px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+  -moz-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+  -ms-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+  -o-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+  transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1); }
+  #section-0 #startExploring:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
+  #section-0 #startExploring .startText {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 11.5pt;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 17px; }
+  #section-0 #startExploring .startGo {
+    position: relative;
+    width: 100%;
+    height: 40px; }
+    #section-0 #startExploring .startGo i {
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0; }
+
+#section-1 #receiverLetter {
+  height: 640px; }
+  #section-1 #receiverLetter .introTitle {
+    width: 900px;
+    margin-bottom: 27px; }
+    #section-1 #receiverLetter .introTitle .maskTitle h1 {
+      width: 900px; }
+  #section-1 #receiverLetter .introParagraph {
+    margin-bottom: 46px; }
+  #section-1 #receiverLetter #welcomePara-1 {
+    height: 142px; }
+  #section-1 #receiverLetter #welcomePara-2, #section-1 #receiverLetter #welcomePara-3 {
+    height: 53px; }
+  #section-1 #receiverLetter .introQuotes {
+    margin-bottom: 40px; }
+  #section-1 #receiverLetter #welcomeQuote-1 {
+    width: 760px; }
+    #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
+      width: 760px; }
+  #section-1 #receiverLetter #welcomeQuote-2 {
+    width: 660px; }
+    #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
+      width: 660px; }
+
+#section-2 #servicesLetter {
+  height: 690px; }
+  #section-2 #servicesLetter .introTitle {
+    width: 465px;
+    margin-bottom: 30px; }
+    #section-2 #servicesLetter .introTitle .maskTitle h1 {
+      width: 465px; }
+  #section-2 #servicesLetter .introParagraph {
+    height: 90px;
+    margin-bottom: 87px; }
+  #section-2 #servicesLetter .introQuotes {
+    width: 425px;
+    margin-bottom: 42px; }
+    #section-2 #servicesLetter .introQuotes .maskTitle h2 {
+      width: 425px; }
+  #section-2 #servicesLetter #servicesList {
+    position: relative;
+    width: 100%; }
+    #section-2 #servicesLetter #servicesList #column-1 {
+      width: 21.9%; }
+      #section-2 #servicesLetter #servicesList #column-1 .maskTitle {
+        width: 120px; }
+        #section-2 #servicesLetter #servicesList #column-1 .maskTitle .maskedText {
+          width: 120px; }
+    #section-2 #servicesLetter #servicesList #column-2 {
+      width: 27.9%; }
+      #section-2 #servicesLetter #servicesList #column-2 .maskTitle {
+        width: 110px; }
+        #section-2 #servicesLetter #servicesList #column-2 .maskTitle .maskedText {
+          width: 110px; }
+    #section-2 #servicesLetter #servicesList #column-3 {
+      width: 28.3%; }
+      #section-2 #servicesLetter #servicesList #column-3 .maskTitle {
+        width: 300px; }
+        #section-2 #servicesLetter #servicesList #column-3 .maskTitle .maskedText {
+          width: 300px; }
+    #section-2 #servicesLetter #servicesList #column-4 {
+      width: 21.9%; }
+      #section-2 #servicesLetter #servicesList #column-4 .maskTitle {
+        width: 90px; }
+        #section-2 #servicesLetter #servicesList #column-4 .maskTitle .maskedText {
+          width: 90px; }
+    #section-2 #servicesLetter #servicesList th {
+      vertical-align: top;
+      text-align: left;
+      font-size: 25px;
+      line-height: 1.4em;
+      padding-bottom: 30px;
+      font-weight: bolder;
+      color: #c9c9c9;
+      -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+      -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+      -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+      -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+      transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s; }
+    #section-2 #servicesLetter #servicesList th:before {
+      position: absolute;
+      overflow: hidden;
+      max-width: 0;
+      color: #06111a;
+      cursor: text;
+      content: attr(data-hover);
+      white-space: nowrap;
+      -webkit-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+      -moz-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+      -ms-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+      -o-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+      transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1); }
+    #section-2 #servicesLetter #servicesList td {
+      font-size: 11.8px;
+      line-height: 2.13em;
+      letter-spacing: 0.1em;
+      text-transform: uppercase; }
+
+#section-3 .nameSection {
+  width: 335px; }
+
+#section-4 .innerCarousel .carouselTitle {
+  width: 115px; }
+
+#section-5 .innerCarousel .carouselTitle {
+  width: 200px; }
+
+#section-6 .nameSection {
+  width: 820px; }
+
+#section-7 .innerCarousel .carouselTitle {
+  width: 550px; }
+
+#section-8 .innerCarousel .carouselTitle {
+  width: 500px; }
+
+#section-9 .innerCarousel .carouselTitle {
+  width: 235px; }
+
+#section-10 .innerCarousel .carouselTitle {
+  width: 215px; }
+
+#section-12 .nameSection {
+  width: 980px; }
+
+#section-13 .innerCarousel .carouselTitle {
+  width: 250px; }
+
+#section-14 .innerCarousel .carouselTitle {
+  width: 360px; }
+
+#section-15 .contactLetter .contactTitle h1 {
+  color: #c9c9c9; }
+#section-15 .contactLetter .indexRow h5 {
+  color: #c9c9c9;
+  -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+  -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+  -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+  -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+  transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s; }
+#section-15 .contactLetter .indexRow h5:before {
+  position: absolute;
+  overflow: hidden;
+  max-width: 0;
+  color: #06111a;
+  cursor: text;
+  content: attr(data-hover);
+  white-space: nowrap;
+  -webkit-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+  -moz-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+  -ms-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+  -o-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+  transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1); }
+#section-15 .contactLetter .firstRow .innerHeadRow {
+  color: #c9c9c9;
+  -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+  -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+  -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+  -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
+  transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s; }
+#section-15 .contactLetter .firstRow .innerHeadRow:before {
+  position: absolute;
+  overflow: hidden;
+  max-width: 0;
+  color: #06111a;
+  cursor: text;
+  content: attr(data-hover);
+  white-space: nowrap;
+  -webkit-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+  -moz-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+  -ms-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+  -o-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+  transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1); }
+#section-15 .contactLetter .bottomBox a:before {
+  position: absolute;
+  overflow: hidden;
+  max-width: 0;
+  color: #06111a;
+  cursor: pointer;
+  content: attr(data-hover);
+  white-space: nowrap;
+  -webkit-transition: max-width 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+  -moz-transition: max-width 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+  -ms-transition: max-width 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+  -o-transition: max-width 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+  transition: max-width 0.6s cubic-bezier(0.65, 0, 0.25, 1); }
+#section-15 .contactLetter .bottomBox a:hover:before {
+  max-width: 100%; }
+
+.testSquare {
+  position: fixed;
+  width: 208px;
+  height: 47px;
+  margin: auto;
+  top: 556px;
+  left: 216px;
+  border: 1px solid red;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 1000; }
+
+#fullWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  #fullWrapper #mbrtLoader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1000000000000;
+    background-color: #fff;
+    -webkit-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.4s;
+    -moz-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.4s;
+    -ms-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.4s;
+    -o-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.4s;
+    transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.4s; }
+    #fullWrapper #mbrtLoader h1 {
+      position: absolute;
+      text-align: center;
+      width: 200px;
+      height: 50px;
+      line-height: 50px;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+  #fullWrapper .crystalLoader {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+    -webkit-transform: translateY(0.5%);
+    -moz-transform: translateY(0.5%);
+    -ms-transform: translateY(0.5%);
+    -o-transform: translateY(0.5%);
+    transform: translateY(0.5%); }
+  #fullWrapper #mbrtWrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    color: #97979b; }
+    #fullWrapper #mbrtWrapper #topLeftLogo {
+      position: fixed;
+      top: 2.5%;
+      left: 2.45%;
+      width: 9.37%;
+      height: 3.83%;
+      z-index: 1000000;
+      cursor: pointer; }
+      #fullWrapper #mbrtWrapper #topLeftLogo img {
+        position: absolute;
+        width: 100%; }
+    #fullWrapper #mbrtWrapper #rightBarsNav {
+      position: fixed;
+      width: 3.85%;
+      height: 400px;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1000; }
+      #fullWrapper #mbrtWrapper #rightBarsNav .barsWrapper {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: right; }
+        #fullWrapper #mbrtWrapper #rightBarsNav .barsWrapper .navBar {
+          position: relative;
+          float: right;
+          display: inline-block;
+          vertical-align: top;
+          zoom: 1;
+          /* Fix for IE7 */
+          *display: inline;
+          /* Fix for IE7 */
+          height: 2px;
+          margin-bottom: 36.3%;
+          cursor: pointer;
+          -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+          -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+          -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+          -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+          transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+          width: 100%;
+          background-color: #c9c9c9; }
+          #fullWrapper #mbrtWrapper #rightBarsNav .barsWrapper .navBar:hover {
+            background-color: rgba(201, 201, 201, 0); }
+          #fullWrapper #mbrtWrapper #rightBarsNav .barsWrapper .navBar .navName {
+            position: absolute;
+            width: 305%;
+            line-height: 1.2em;
+            top: -0.62em;
+            right: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            color: rgba(6, 17, 26, 0);
+            -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+            -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+            -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+            -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+            transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+            font-size: 0.85em; }
+            #fullWrapper #mbrtWrapper #rightBarsNav .barsWrapper .navBar .navName:hover {
+              color: #06111a;
+              padding-right: 30%; }
+        #fullWrapper #mbrtWrapper #rightBarsNav .barsWrapper .activeNavBar {
+          width: 166.2%;
+          background-color: #06111a; }
+          #fullWrapper #mbrtWrapper #rightBarsNav .barsWrapper .activeNavBar .navName {
+            width: 188%; }
+    #fullWrapper #mbrtWrapper .hiddenMainNav {
+      display: none; }
+    #fullWrapper #mbrtWrapper .crystalMainNav {
+      opacity: 0;
+      filter: alpha(opacity=0);
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+      -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+      -webkit-transform: translateY(0.5%);
+      -moz-transform: translateY(0.5%);
+      -ms-transform: translateY(0.5%);
+      -o-transform: translateY(0.5%);
+      transform: translateY(0.5%); }
+    #fullWrapper #mbrtWrapper .animatableMainNav {
+      -webkit-transition: all 0.7s cubic-bezier(0.65, 0, 0.25, 1);
+      -moz-transition: all 0.7s cubic-bezier(0.65, 0, 0.25, 1);
+      -ms-transition: all 0.7s cubic-bezier(0.65, 0, 0.25, 1);
+      -o-transition: all 0.7s cubic-bezier(0.65, 0, 0.25, 1);
+      transition: all 0.7s cubic-bezier(0.65, 0, 0.25, 1); }
+    #fullWrapper #mbrtWrapper .mainSection {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1);
+      -moz-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1);
+      -ms-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1);
+      -o-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1);
+      transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1);
+      will-change: transform;
+      display: none; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter {
+      position: absolute;
+      width: 1290px;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+      #fullWrapper #mbrtWrapper .introSection .introLetter h1, #fullWrapper #mbrtWrapper .introSection .introLetter h2, #fullWrapper #mbrtWrapper .introSection .introLetter p {
+        position: relative;
+        float: left;
+        display: inline-block;
+        vertical-align: top;
+        zoom: 1;
+        /* Fix for IE7 */
+        *display: inline;
+        /* Fix for IE7 */
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-top: 0;
+        margin-bottom: 0; }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle {
+        height: 75px;
+        line-height: 4em; }
+        #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle .writtingAnimation {
+          -webkit-animation: writingBar 0.8s ease infinite alternate;
+          -moz-animation: writingBar 0.8s ease infinite alternate;
+          -ms-animation: writingBar 0.8s ease infinite alternate;
+          -o-animation: writingBar 0.8s ease infinite alternate;
+          animation: writingBar 0.8s ease infinite alternate; }
+        #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle h1 {
+          position: absolute;
+          font-size: 69.6px;
+          padding-right: 22px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          color: #c9c9c9;
+          -webkit-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -moz-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -ms-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -o-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s; }
+        #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle h1:before {
+          position: absolute;
+          overflow: hidden;
+          max-width: 0;
+          color: #06111a;
+          cursor: text;
+          content: attr(data-hover);
+          white-space: nowrap;
+          -webkit-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -moz-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -ms-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -o-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1); }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .introParagraph p {
+        width: 100%;
+        font-size: 25px;
+        line-height: 1.2em; }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes {
+        height: 55px; }
+        #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2 {
+          position: absolute;
+          font-size: 38px;
+          color: #c9c9c9;
+          -webkit-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -moz-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -ms-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -o-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s; }
+        #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2:before {
+          position: absolute;
+          overflow: hidden;
+          max-width: 0;
+          color: #06111a;
+          cursor: text;
+          content: attr(data-hover);
+          white-space: nowrap;
+          -webkit-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -moz-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -ms-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -o-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1); }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .animatedLine {
+        z-index: -1;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+        -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+        -webkit-transform: translateY(0.4em);
+        -moz-transform: translateY(0.4em);
+        -ms-transform: translateY(0.4em);
+        -o-transform: translateY(0.4em);
+        transform: translateY(0.4em);
+        -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1); }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .active {
+        z-index: 1;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+        -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none; }
+    #fullWrapper #mbrtWrapper .coverSection .nameSection {
+      position: absolute;
+      height: 100px;
+      line-height: 6em;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+      -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+      -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+      -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+      transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1); }
+      #fullWrapper #mbrtWrapper .coverSection .nameSection h1 {
+        margin: 0;
+        padding-right: 20px;
+        font-size: 70px;
+        text-align: center;
+        color: #c9c9c9;
+        position: relative;
+        float: left;
+        display: inline-block;
+        vertical-align: top;
+        zoom: 1;
+        /* Fix for IE7 */
+        *display: inline;
+        /* Fix for IE7 */
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-animation: writingBar 0.8s ease infinite alternate;
+        -moz-animation: writingBar 0.8s ease infinite alternate;
+        -ms-animation: writingBar 0.8s ease infinite alternate;
+        -o-animation: writingBar 0.8s ease infinite alternate;
+        animation: writingBar 0.8s ease infinite alternate;
+        -webkit-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+        -moz-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+        -ms-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+        -o-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+        transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s; }
+      #fullWrapper #mbrtWrapper .coverSection .nameSection h1:before {
+        position: absolute;
+        overflow: hidden;
+        max-width: 0;
+        color: #06111a;
+        cursor: text;
+        content: attr(data-hover);
+        white-space: nowrap;
+        -webkit-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+        -moz-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+        -ms-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+        -o-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+        transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1); }
+    #fullWrapper #mbrtWrapper .carouselSection .innerCarousel {
+      position: absolute;
+      width: 100%;
+      height: 840px;
+      margin: auto;
+      top: 0;
+      bottom: 0; }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselTitle {
+        position: relative;
+        height: 70px;
+        line-height: 2em;
+        margin: auto;
+        margin-bottom: 9px;
+        left: 0;
+        right: 0;
+        font-size: 34px;
+        color: #c9c9c9;
+        text-align: left;
+        -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1); }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselTitle h3 {
+          margin: 0;
+          -webkit-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -moz-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -ms-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -o-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s; }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselTitle h3:before {
+          position: absolute;
+          overflow: hidden;
+          max-width: 0;
+          color: #06111a;
+          cursor: text;
+          content: attr(data-hover);
+          white-space: nowrap;
+          -webkit-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -moz-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -ms-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -o-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1); }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages {
+        position: relative;
+        width: 100%;
+        height: 77.6%; }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper {
+          position: absolute;
+          width: 62.5%;
+          height: 100%;
+          margin: auto;
+          left: 0;
+          right: 0;
+          overflow: hidden; }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: none;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+            -webkit-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1);
+            -moz-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1);
+            -ms-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1);
+            -o-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1);
+            transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1);
+            will-change: transform; }
+            #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto img {
+              position: absolute;
+              width: 100%;
+              margin: auto;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0; }
+            #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(255, 255, 255, 0.95);
+              -webkit-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+              -moz-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+              -ms-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+              -o-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+              transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+              opacity: 0;
+              filter: alpha(opacity=0);
+              filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+              -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
+              #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData:hover {
+                opacity: 1;
+                filter: alpha(opacity=100);
+                filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+                -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
+              #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .innerCenteredBox {
+                position: absolute;
+                width: 36.3%;
+                height: 33.5%;
+                margin: auto;
+                top: 0;
+                bottom: 0;
+                left: 14%;
+                right: 0;
+                text-align: left; }
+                #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .innerCenteredBox h5 {
+                  position: relative;
+                  width: 100%;
+                  line-height: 0.8em;
+                  font-size: 24.5px;
+                  margin: 0;
+                  margin-bottom: 7px;
+                  color: #06111a; }
+                #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .innerCenteredBox p {
+                  position: relative;
+                  width: 100%;
+                  height: 7.5%;
+                  line-height: 0.8em;
+                  font-size: 19px;
+                  margin: 0;
+                  margin-bottom: 10.5%; }
+              #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .visitWebsite {
+                position: absolute;
+                width: 175px;
+                height: 28px;
+                line-height: 1.9em;
+                margin: auto;
+                left: 0;
+                right: 0;
+                bottom: 10%;
+                border: 1px solid #97979b; }
+                #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .visitWebsite a {
+                  position: absolute;
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  text-decoration: none;
+                  text-align: center;
+                  font-size: 15px;
+                  color: #97979b;
+                  background-color: rgba(151, 151, 155, 0);
+                  -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+                  -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+                  -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+                  -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+                  transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1); }
+                  #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .visitWebsite a:hover {
+                    color: #fff;
+                    background-color: #97979b; }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .active {
+            display: block;
+            z-index: 1;
+            -webkit-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+            -moz-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+            -ms-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+            -o-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+            transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+            -webkit-transform: none;
+            -moz-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none; }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .left {
+            -webkit-transform: translate(-102%, 0);
+            -moz-transform: translate(-102%, 0);
+            -ms-transform: translate(-102%, 0);
+            -o-transform: translate(-102%, 0);
+            transform: translate(-102%, 0); }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .right {
+            -webkit-transform: translate(102%, 0);
+            -moz-transform: translate(102%, 0);
+            -ms-transform: translate(102%, 0);
+            -o-transform: translate(102%, 0);
+            transform: translate(102%, 0); }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .arrow {
+          position: absolute;
+          width: 5.21%;
+          height: 100%;
+          margin: auto;
+          -webkit-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+          -moz-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+          -ms-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+          -o-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+          transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1); }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .arrow a {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: block;
+            -webkit-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+            -moz-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+            -ms-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+            -o-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+            transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1); }
+            #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .arrow a:hover {
+              opacity: 0.6;
+              filter: alpha(opacity=60);
+              filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+              -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
+            #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .arrow a i {
+              position: absolute;
+              margin: auto;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0; }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .leftArrow {
+          left: 0;
+          right: 67.7%; }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .rightArrow {
+          left: 67.7%;
+          right: 0; }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars {
+        position: relative;
+        width: 47.92%;
+        height: 3px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        margin-top: 4.69%; }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars ul {
+          position: absolute;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+          margin: auto;
+          left: 0;
+          right: 0; }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars ul .singleBar {
+            height: 100%;
+            position: relative;
+            float: left;
+            display: inline-block;
+            vertical-align: top;
+            zoom: 1;
+            /* Fix for IE7 */
+            *display: inline;
+            /* Fix for IE7 */
+            list-style-type: none;
+            margin-left: 7.5px;
+            margin-right: 7.5px;
+            background-color: #c9c9c9;
+            cursor: pointer;
+            -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            overflow: hidden; }
+            #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars ul .singleBar:hover {
+              opacity: 0.4;
+              filter: alpha(opacity=40);
+              filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+              -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
+            #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars ul .singleBar .coverBar {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              display: none;
+              background-color: #06111a;
+              -webkit-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1);
+              -moz-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1);
+              -ms-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1);
+              -o-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1);
+              transition: all 1s cubic-bezier(0.65, 0, 0.25, 1);
+              -webkit-transform-origin: left;
+              transform-origin: left; }
+            #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars ul .singleBar .active {
+              display: block;
+              -webkit-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              -moz-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              -ms-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              -o-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              -webkit-transform: none;
+              -moz-transform: none;
+              -ms-transform: none;
+              -o-transform: none;
+              transform: none; }
+            #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars ul .singleBar .left {
+              -webkit-transform: translateX(-102%);
+              -moz-transform: translateX(-102%);
+              -ms-transform: translateX(-102%);
+              -o-transform: translateX(-102%);
+              transform: translateX(-102%); }
+            #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars ul .singleBar .right {
+              -webkit-transform: translateX(102%);
+              -moz-transform: translateX(102%);
+              -ms-transform: translateX(102%);
+              -o-transform: translateX(102%);
+              transform: translateX(102%); }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .fiveBarsList {
+          width: 62%; }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .fiveBarsList li {
+            width: calc(20% - 15px); }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .twoBarsList {
+          width: 25%; }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .twoBarsList li {
+            width: calc(50% - 15px); }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .sixBarsList {
+          width: 75%; }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .sixBarsList li {
+            width: calc(16.66% - 15px); }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .threeBarsList {
+          width: 37.6%; }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .threeBarsList li {
+            width: calc(33.33% - 15px); }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .eightBarsList {
+          width: 100%; }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .eightBarsList li {
+            width: calc(12.5% - 15px); }
+        #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .fourBarsList {
+          width: 50%; }
+          #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .fourBarsList li {
+            width: calc(25% - 15px); }
+    #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel {
+      position: absolute;
+      width: 89%;
+      height: 96.9%;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0; }
+      #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselTitle {
+        position: relative;
+        float: left;
+        width: 30.43%;
+        height: 100%;
+        overflow: hidden;
+        -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+        transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1); }
+        #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselTitle h3 {
+          position: absolute;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          text-align: right;
+          width: 87.3%;
+          height: 58px;
+          line-height: 1.5em;
+          font-size: 37.2px;
+          padding-right: 50px;
+          margin: auto;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          color: #c9c9c9;
+          -webkit-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -moz-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -ms-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          -o-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+          transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s; }
+        #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselTitle h3:before {
+          position: absolute;
+          overflow: hidden;
+          max-width: 0;
+          color: #06111a;
+          cursor: text;
+          content: attr(data-hover);
+          white-space: nowrap;
+          -webkit-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -moz-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -ms-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          -o-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+          transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1); }
+      #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .arrow {
+        position: relative;
+        float: left;
+        width: 5.8%;
+        height: 100%;
+        margin: auto;
+        -webkit-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+        -moz-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+        -ms-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+        -o-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+        transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1); }
+        #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .arrow a {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          display: block;
+          -webkit-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+          -moz-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+          -ms-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+          -o-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+          transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1); }
+          #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .arrow a:hover {
+            opacity: 0.6;
+            filter: alpha(opacity=60);
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+            -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
+          #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .arrow a i {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0; }
+      #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselImages {
+        position: relative;
+        float: left;
+        width: 39.8%;
+        height: 98%;
+        overflow: hidden; }
+        #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselImages .projectsWrapper {
+          width: 100%;
+          height: 100%;
+          margin: auto;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          overflow: hidden; }
+          #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto {
+            position: absolute;
+            width: 82.4%;
+            height: 100%;
+            display: none;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+            -webkit-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1);
+            -moz-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1);
+            -ms-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1);
+            -o-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1);
+            transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1);
+            will-change: transform; }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto img {
+              position: absolute;
+              width: 100%;
+              margin: auto;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0; }
+          #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselImages .projectsWrapper .active {
+            display: block;
+            z-index: 1;
+            -webkit-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+            -moz-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+            -ms-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+            -o-transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+            transition: all 1.3s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+            -webkit-transform: none;
+            -moz-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none; }
+          #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselImages .projectsWrapper .left {
+            -webkit-transform: translate(-120%, 0);
+            -moz-transform: translate(-120%, 0);
+            -ms-transform: translate(-120%, 0);
+            -o-transform: translate(-120%, 0);
+            transform: translate(-120%, 0); }
+          #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselImages .projectsWrapper .right {
+            -webkit-transform: translate(120%, 0);
+            -moz-transform: translate(120%, 0);
+            -ms-transform: translate(120%, 0);
+            -o-transform: translate(120%, 0);
+            transform: translate(120%, 0); }
+      #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper {
+        position: relative;
+        float: left;
+        width: 18%;
+        height: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 2.9%; }
+        #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData {
+          position: absolute;
+          width: 100%;
+          height: 100%; }
+          #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox {
+            position: absolute;
+            width: 100%;
+            height: 21.5%;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: left;
+            -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1); }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox h5 {
+              position: relative;
+              width: 100%;
+              line-height: 0.8em;
+              font-size: 24.2px;
+              margin: 0;
+              margin-bottom: 2.3%;
+              color: #c9c9c9;
+              -webkit-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+              -moz-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+              -ms-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+              -o-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+              transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s; }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox h5:before {
+              position: absolute;
+              overflow: hidden;
+              max-width: 0;
+              color: #06111a;
+              cursor: text;
+              content: attr(data-hover);
+              white-space: nowrap;
+              -webkit-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+              -moz-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+              -ms-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+              -o-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+              transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1); }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox .shiftData {
+              position: relative;
+              width: 100%;
+              height: 7.4%;
+              line-height: 0.8em;
+              font-size: 20px;
+              margin-bottom: 11%; }
+              #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox .shiftData p {
+                position: absolute;
+                margin: 0;
+                z-index: -1;
+                opacity: 0;
+                filter: alpha(opacity=0);
+                filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+                -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+                -webkit-transform: translateY(0.4em);
+                -moz-transform: translateY(0.4em);
+                -ms-transform: translateY(0.4em);
+                -o-transform: translateY(0.4em);
+                transform: translateY(0.4em); }
+              #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox .shiftData .active {
+                z-index: 1;
+                opacity: 1;
+                filter: alpha(opacity=100);
+                filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+                -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+                -webkit-transform: none;
+                -moz-transform: none;
+                -ms-transform: none;
+                -o-transform: none;
+                transform: none; }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox .shiftBrand p {
+              -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+              -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+              -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+              -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+              transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s; }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox .shiftBrand .active {
+              -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0s;
+              -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0s;
+              -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0s;
+              -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0s;
+              transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0s; }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox .shiftBrief p {
+              -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.1s; }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox .shiftClient p {
+              -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0s;
+              -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0s;
+              -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0s;
+              -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0s;
+              transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0s; }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox .shiftClient .active {
+              -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+              -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+              -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+              -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s;
+              transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.2s; }
+      #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars {
+        position: absolute;
+        width: 53.9%;
+        height: 3px;
+        margin: auto;
+        left: 12.4%;
+        right: 0;
+        bottom: 0; }
+        #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars ul {
+          position: absolute;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+          margin: auto;
+          left: 0;
+          right: 0; }
+          #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars ul .singleBar {
+            height: 100%;
+            position: relative;
+            float: left;
+            display: inline-block;
+            vertical-align: top;
+            zoom: 1;
+            /* Fix for IE7 */
+            *display: inline;
+            /* Fix for IE7 */
+            list-style-type: none;
+            margin-left: 7.5px;
+            margin-right: 7.5px;
+            background-color: #c9c9c9;
+            cursor: pointer;
+            -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            overflow: hidden; }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars ul .singleBar:hover {
+              opacity: 0.4;
+              filter: alpha(opacity=40);
+              filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+              -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars ul .singleBar .coverBar {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              display: none;
+              background-color: #06111a;
+              -webkit-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1);
+              -moz-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1);
+              -ms-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1);
+              -o-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1);
+              transition: all 1s cubic-bezier(0.65, 0, 0.25, 1);
+              -webkit-transform-origin: left;
+              transform-origin: left; }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars ul .singleBar .active {
+              display: block;
+              -webkit-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              -moz-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              -ms-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              -o-transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              transition: all 1s cubic-bezier(0.65, 0, 0.25, 1) 0.1s;
+              -webkit-transform: none;
+              -moz-transform: none;
+              -ms-transform: none;
+              -o-transform: none;
+              transform: none; }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars ul .singleBar .left {
+              -webkit-transform: translateX(-102%);
+              -moz-transform: translateX(-102%);
+              -ms-transform: translateX(-102%);
+              -o-transform: translateX(-102%);
+              transform: translateX(-102%); }
+            #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars ul .singleBar .right {
+              -webkit-transform: translateX(102%);
+              -moz-transform: translateX(102%);
+              -ms-transform: translateX(102%);
+              -o-transform: translateX(102%);
+              transform: translateX(102%); }
+        #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars .sixBarsList {
+          width: 75%; }
+          #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars .sixBarsList li {
+            width: calc(16.66% - 15px); }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter {
+      position: absolute;
+      width: 67.4%;
+      height: 45.5%;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox {
+        position: relative;
+        width: 100%;
+        height: 21.5%;
+        margin-bottom: 12.7%; }
+        #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactTitle {
+          position: relative;
+          float: left;
+          display: inline-block;
+          vertical-align: top;
+          zoom: 1;
+          /* Fix for IE7 */
+          *display: inline;
+          /* Fix for IE7 */
+          width: 69%;
+          height: 100%; }
+          #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactTitle h1 {
+            position: absolute;
+            margin: 0;
+            font-size: 65px;
+            -webkit-animation: writingBar 0.8s ease infinite alternate;
+            -moz-animation: writingBar 0.8s ease infinite alternate;
+            -ms-animation: writingBar 0.8s ease infinite alternate;
+            -o-animation: writingBar 0.8s ease infinite alternate;
+            animation: writingBar 0.8s ease infinite alternate;
+            padding-right: 2.1%;
+            -webkit-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+            -moz-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+            -ms-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+            -o-transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s;
+            transition: all 0.9s cubic-bezier(0.65, 0, 0.25, 1), color 0.9s cubic-bezier(0.65, 0, 0.25, 1) 0.9s; }
+          #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactTitle h1:before {
+            position: absolute;
+            overflow: hidden;
+            max-width: 0;
+            color: #06111a;
+            cursor: text;
+            content: attr(data-hover);
+            white-space: nowrap;
+            -webkit-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+            -moz-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+            -ms-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+            -o-transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1);
+            transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1); }
+        #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactButton {
+          position: relative;
+          float: left;
+          display: inline-block;
+          vertical-align: top;
+          zoom: 1;
+          /* Fix for IE7 */
+          *display: inline;
+          /* Fix for IE7 */
+          width: 31%;
+          height: 100%; }
+          #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactButton a {
+            position: absolute;
+            width: 50.1%;
+            height: 48.8%;
+            display: table;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border: 1px solid #c9c9c9;
+            color: #97979b;
+            font-weight: 700;
+            font-size: 25px;
+            text-align: center;
+            text-decoration: none;
+            -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1); }
+            #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactButton a:hover {
+              background-color: #c9c9c9;
+              color: #fff; }
+            #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactButton a p {
+              display: table-cell;
+              vertical-align: middle; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox {
+        position: relative;
+        width: 100%;
+        height: 48.2%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+        #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns {
+          position: relative;
+          float: left;
+          display: inline-block;
+          vertical-align: top;
+          zoom: 1;
+          /* Fix for IE7 */
+          *display: inline;
+          /* Fix for IE7 */
+          width: 24%;
+          height: 100%; }
+          #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow {
+            height: 15%; }
+            #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow h5 {
+              position: absolute;
+              margin: 0;
+              font-size: 34.5px;
+              line-height: 0.9em;
+              border-right: 2px solid #97979b;
+              padding-right: 3.2%; }
+          #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow {
+            width: 100%; }
+            #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerHeadRow {
+              font-weight: 700;
+              font-size: 25px;
+              line-height: 1.5em; }
+            #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerFootRow {
+              font-size: 19.9px;
+              font-variant-numeric: lining-nums;
+              margin-top: -0.6%;
+              margin-bottom: 10.6%; }
+              #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerFootRow a {
+                text-decoration: none;
+                color: #97979b; }
+          #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .secondRow {
+            font-size: 19.9px;
+            font-variant-numeric: lining-nums; }
+            #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .secondRow a {
+              text-decoration: none;
+              color: #97979b; }
+            #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .secondRow .innerHeadRow {
+              margin-bottom: 3%; }
+    #fullWrapper #mbrtWrapper .activeSlide {
+      display: block;
+      opacity: 1;
+      filter: alpha(opacity=100);
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+      -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+      transform: translateY(0); }
+    #fullWrapper #mbrtWrapper .down {
+      opacity: 0;
+      filter: alpha(opacity=0);
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+      -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+      -webkit-transform: translateY(100%);
+      -moz-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+      -o-transform: translateY(100%);
+      transform: translateY(100%); }
+    #fullWrapper #mbrtWrapper .up {
+      opacity: 0;
+      filter: alpha(opacity=0);
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+      -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+      -webkit-transform: translateY(-100%);
+      -moz-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+      -o-transform: translateY(-100%);
+      transform: translateY(-100%); }
+    #fullWrapper #mbrtWrapper .sprite {
+      background-image: url(../img/icons/sprite_nav.png);
+      background-repeat: no-repeat;
+      display: block; }
+    #fullWrapper #mbrtWrapper .sprite-leftArrow {
+      width: 20px;
+      height: 35px;
+      background-position: -5px -5px; }
+    #fullWrapper #mbrtWrapper .sprite-rightArrow {
+      width: 20px;
+      height: 35px;
+      background-position: -30px -5px; }
+    #fullWrapper #mbrtWrapper .sprite-downArrow {
+      width: 40px;
+      height: 40px;
+      background-position: -5px -45px; }
+
+@media screen and (max-width: 1849px) {
+  #fullWrapper #mbrtWrapper #rightBarsNav {
+    height: 375px; }
+  #fullWrapper #mbrtWrapper .contactSection .contactLetter {
+    height: 390px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox {
+      height: 22.4%; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactTitle h1 {
+        font-size: 62px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow {
+      height: 14%; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow h5 {
+        font-size: 33.2px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerHeadRow {
+      font-size: 24px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerFootRow {
+      font-size: 19.1px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .secondRow {
+      font-size: 19.1px; }
+  #fullWrapper #mbrtWrapper .introSection .introLetter {
+    width: 1260px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle h1 {
+      font-size: 67px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introParagraph p {
+      font-size: 24px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes {
+      height: 53px; }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2 {
+        font-size: 36.6px; }
+  #fullWrapper #mbrtWrapper #section-1 #receiverLetter {
+    height: 615px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle {
+      width: 860px;
+      margin-bottom: 26px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle .maskTitle h1 {
+        width: 860px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introParagraph {
+      margin-bottom: 44.3px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-1 {
+      height: 135px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introQuotes {
+      margin-bottom: 38.5px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 {
+      width: 740px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
+        width: 740px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 {
+      width: 640px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
+        width: 640px; }
+  #fullWrapper #mbrtWrapper #section-2 #servicesLetter {
+    height: 670px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introTitle {
+      margin-bottom: 28.9px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introParagraph {
+      height: 83px;
+      margin-bottom: 83.8px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introQuotes {
+      margin-bottom: 40.4px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList th {
+      font-size: 23.6px;
+      padding-bottom: 28.9px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle {
+      width: 110px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle .maskedText {
+        width: 110px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-2 .maskTitle {
+      width: 100px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-2 .maskTitle .maskedText {
+        width: 100px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle {
+      width: 280px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle .maskedText {
+        width: 280px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-4 .maskTitle {
+      width: 85px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-4 .maskTitle .maskedText {
+        width: 85px; }
+  #fullWrapper #mbrtWrapper .carouselSection .innerCarousel {
+    height: 810px; }
+    #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .innerCenteredBox {
+      left: 13%; } }
+@media screen and (max-width: 1750px) {
+  #fullWrapper #mbrtWrapper #rightBarsNav {
+    height: 350px; }
+    #fullWrapper #mbrtWrapper #rightBarsNav .barsWrapper .navBar .navName {
+      font-size: 0.6em; }
+  #fullWrapper #mbrtWrapper .contactSection .contactLetter {
+    height: 360px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactTitle h1 {
+      font-size: 58px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow {
+      height: 13.5%; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow h5 {
+        font-size: 31.4px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerHeadRow {
+      font-size: 22.7px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerFootRow {
+      font-size: 18.1px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .secondRow {
+      font-size: 18.1px; }
+  #fullWrapper #mbrtWrapper .introSection .introLetter {
+    width: 1190px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle {
+      height: 73px; }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle h1 {
+        font-size: 63.4px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introParagraph p {
+      font-size: 22.7px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes {
+      height: 50px; }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2 {
+        font-size: 34.6px; }
+  #fullWrapper #mbrtWrapper #section-1 #receiverLetter {
+    height: 590px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle {
+      width: 820px;
+      margin-bottom: 24.8px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle .maskTitle h1 {
+        width: 820px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introParagraph {
+      margin-bottom: 41.9px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-1 {
+      height: 130px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introQuotes {
+      margin-bottom: 36.4px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 {
+      width: 700px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
+        width: 700px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 {
+      width: 600px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
+        width: 600px; }
+  #fullWrapper #mbrtWrapper #section-2 #servicesLetter {
+    height: 580px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introTitle {
+      margin-bottom: 27.3px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introParagraph {
+      height: 80px;
+      margin-bottom: 79.2px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introQuotes {
+      margin-bottom: 38.2px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList th {
+      font-size: 22.3px;
+      padding-bottom: 27.3px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle {
+      width: 260px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle .maskedText {
+        width: 260px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList td {
+      font-size: 8px; }
+  #fullWrapper #mbrtWrapper .carouselSection .innerCarousel {
+    height: 770px; }
+    #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .innerCenteredBox {
+      height: 34.5%;
+      left: 11%; } }
+@media screen and (max-width: 1649px) {
+  #fullWrapper #mbrtWrapper #rightBarsNav {
+    height: 305px; }
+  #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselTitle h3 {
+    width: 93%;
+    height: 48px;
+    font-size: 29.6px; }
+  #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox {
+    height: 18%; }
+    #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox h5 {
+      font-size: 20px; }
+    #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox .shiftData {
+      height: 6.9%;
+      font-size: 17px; }
+  #fullWrapper #mbrtWrapper .contactSection .contactLetter {
+    height: 320px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox {
+      height: 22.2%; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactTitle h1 {
+        font-size: 50px; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactButton a {
+        font-size: 18px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow {
+      height: 13.5%; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow h5 {
+        font-size: 29.6px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerHeadRow {
+      font-size: 21.5px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerFootRow {
+      font-size: 17.1px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .secondRow {
+      font-size: 17.1px; }
+  #fullWrapper #mbrtWrapper .introSection .introLetter {
+    width: 1120px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle {
+      height: 70px; }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle h1 {
+        font-size: 59.8px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introParagraph p {
+      font-size: 21.5px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes {
+      height: 48px; }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2 {
+        font-size: 32.6px; }
+  #fullWrapper #mbrtWrapper #section-1 #receiverLetter {
+    height: 560px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle {
+      width: 780px;
+      margin-bottom: 23.2px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle .maskTitle h1 {
+        width: 780px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introParagraph {
+      margin-bottom: 39.5px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-1 {
+      height: 122px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-2, #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-3 {
+      height: 52px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introQuotes {
+      margin-bottom: 34.3px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 {
+      width: 660px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
+        width: 660px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 {
+      width: 570px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
+        width: 570px; }
+  #fullWrapper #mbrtWrapper #section-2 #servicesLetter {
+    height: 550px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introTitle {
+      margin-bottom: 25.7px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introParagraph {
+      height: 75px;
+      margin-bottom: 74.7px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introQuotes {
+      margin-bottom: 36px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList th {
+      font-size: 18.9px;
+      padding-bottom: 25.7px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle {
+      width: 95px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle .maskedText {
+        width: 95px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-2 .maskTitle {
+      width: 85px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-2 .maskTitle .maskedText {
+        width: 85px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle {
+      width: 225px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle .maskedText {
+        width: 225px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-4 .maskTitle {
+      width: 70px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-4 .maskTitle .maskedText {
+        width: 70px; }
+  #fullWrapper #mbrtWrapper .carouselSection .innerCarousel {
+    height: 730px; }
+    #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .innerCenteredBox {
+      left: 9%; } }
+@media screen and (max-width: 1400px) {
+  #fullWrapper #mbrtWrapper #rightBarsNav {
+    height: 280px; }
+    #fullWrapper #mbrtWrapper #rightBarsNav .barsWrapper .navBar .navName {
+      font-size: 0.45em; }
+  #fullWrapper #mbrtWrapper .contactSection .contactLetter {
+    height: 285px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactTitle h1 {
+      font-size: 45px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow {
+      height: 11%; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow h5 {
+        font-size: 25.1px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerHeadRow {
+      font-size: 18.2px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerFootRow {
+      font-size: 14.5px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .secondRow {
+      font-size: 14.5px; }
+  #fullWrapper #mbrtWrapper .introSection .introLetter {
+    width: 950px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle h1 {
+      font-size: 50.7px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introParagraph p {
+      font-size: 18.2px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes {
+      height: 42px; }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2 {
+        font-size: 27.7px; }
+  #fullWrapper #mbrtWrapper #section-1 #receiverLetter {
+    height: 490px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle {
+      width: 680px;
+      margin-bottom: 19.6px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle .maskTitle h1 {
+        width: 680px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introParagraph {
+      margin-bottom: 33.5px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-1 {
+      height: 105px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-2, #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-3 {
+      height: 45px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introQuotes {
+      margin-bottom: 29.1px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 {
+      width: 560px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
+        width: 560px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 {
+      width: 480px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
+        width: 480px; }
+  #fullWrapper #mbrtWrapper #section-2 #servicesLetter {
+    height: 510px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introTitle {
+      margin-bottom: 21.8px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introParagraph {
+      height: 65px;
+      margin-bottom: 63.4px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introQuotes {
+      margin-bottom: 30.6px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList th {
+      font-size: 17.3px;
+      padding-bottom: 21.8px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle {
+      width: 205px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle .maskedText {
+        width: 205px; }
+  #fullWrapper #mbrtWrapper .carouselSection .innerCarousel {
+    height: 620px; }
+    #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .innerCenteredBox {
+      height: 38.5%;
+      left: 7%; } }
+@media screen and (max-width: 1279px) {
+  #fullWrapper #mbrtWrapper .coverSection .nameSection {
+    height: 65px;
+    line-height: 4em; }
+    #fullWrapper #mbrtWrapper .coverSection .nameSection h1 {
+      font-size: 45px; }
+  #fullWrapper #mbrtWrapper .carouselSection .innerCarousel {
+    height: 570px; }
+    #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselTitle {
+      font-size: 23.8px; }
+    #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .innerCenteredBox {
+      height: 31.8%;
+      left: 5%; }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .innerCenteredBox h5 {
+        font-size: 16.9px; }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .innerCenteredBox p {
+        height: 6.5%;
+        font-size: 14px; }
+    #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .visitWebsite {
+      width: 105px;
+      height: 23px;
+      line-height: 1.4em;
+      bottom: 15%; }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .visitWebsite a {
+        font-size: 10.5px; }
+    #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars {
+      height: 2px; }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars ul .singleBar {
+        margin-left: 3px;
+        margin-right: 3px; }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .fiveBarsList li {
+        width: calc(20% - 6px); }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .twoBarsList li {
+        width: calc(50% - 6px); }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .sixBarsList li {
+        width: calc(16.66% - 6px); }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .threeBarsList li {
+        width: calc(33.33% - 6px); }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .eightBarsList li {
+        width: calc(12.5% - 6px); }
+      #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .projectsBars .fourBarsList li {
+        width: calc(25% - 6px); }
+  #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .carouselTitle h3 {
+    width: 100%;
+    height: 34px;
+    font-size: 22px; }
+  #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox {
+    height: 12.5%; }
+    #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox h5 {
+      font-size: 16.9px; }
+    #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .dataWrapper .projectData .innerCenteredBox .shiftData {
+      height: 6.4%;
+      font-size: 14px; }
+  #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars {
+    height: 2px; }
+    #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars ul .singleBar {
+      margin-left: 3px;
+      margin-right: 3px; }
+    #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .projectsBars .sixBarsList li {
+      width: calc(16.66% - 6px); }
+  #fullWrapper #mbrtWrapper .contactSection .contactLetter {
+    height: 240px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox {
+      height: 20.5%; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactTitle h1 {
+        font-size: 36px; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .topBox .contactButton a {
+        font-size: 13px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow {
+      height: 10%; }
+      #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .indexRow h5 {
+        font-size: 23px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerHeadRow {
+      font-size: 16.6px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .firstRow .innerFootRow {
+      font-size: 13.2px; }
+    #fullWrapper #mbrtWrapper .contactSection .contactLetter .bottomBox .contactColumns .secondRow {
+      font-size: 13.2px; }
+  #fullWrapper #mbrtWrapper .introSection .introLetter {
+    width: 865px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle h1 {
+      font-size: 46.4px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introParagraph p {
+      font-size: 16.6px; }
+    #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes {
+      height: 36px; }
+      #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2 {
+        font-size: 25.3px; }
+  #fullWrapper #mbrtWrapper #section-1 #receiverLetter {
+    height: 450px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle {
+      width: 610px;
+      margin-bottom: 18px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle .maskTitle h1 {
+        width: 610px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introParagraph {
+      margin-bottom: 30.6px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-1 {
+      height: 95px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-2, #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-3 {
+      height: 40px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introQuotes {
+      margin-bottom: 26.6px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 {
+      width: 510px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
+        width: 510px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 {
+      width: 440px; }
+      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
+        width: 440px; }
+  #fullWrapper #mbrtWrapper #section-2 #servicesLetter {
+    height: 450px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introTitle {
+      margin-bottom: 20px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introParagraph {
+      height: 57px;
+      margin-bottom: 58px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introQuotes {
+      margin-bottom: 28px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList th {
+      font-size: 13.8px;
+      padding-bottom: 20px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle {
+      width: 70px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle .maskedText {
+        width: 70px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-2 .maskTitle {
+      width: 65px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-2 .maskTitle .maskedText {
+        width: 65px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle {
+      width: 165px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle .maskedText {
+        width: 165px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-4 .maskTitle {
+      width: 50px; }
+      #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-4 .maskTitle .maskedText {
+        width: 50px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList td {
+      font-size: 7px; }
+  #fullWrapper #mbrtWrapper #section-3 .nameSection {
+    width: 235px; }
+  #fullWrapper #mbrtWrapper #section-4 .innerCarousel .carouselTitle {
+    width: 85px; }
+  #fullWrapper #mbrtWrapper #section-5 .innerCarousel .carouselTitle {
+    width: 140px; }
+  #fullWrapper #mbrtWrapper #section-6 .nameSection {
+    width: 540px; }
+  #fullWrapper #mbrtWrapper #section-7 .innerCarousel .carouselTitle {
+    width: 390px; }
+  #fullWrapper #mbrtWrapper #section-8 .innerCarousel .carouselTitle {
+    width: 330px; }
+  #fullWrapper #mbrtWrapper #section-9 .innerCarousel .carouselTitle {
+    width: 160px; }
+  #fullWrapper #mbrtWrapper #section-10 .innerCarousel .carouselTitle {
+    width: 155px; }
+  #fullWrapper #mbrtWrapper #section-12 .nameSection {
+    width: 650px; }
+  #fullWrapper #mbrtWrapper #section-13 .innerCarousel .carouselTitle {
+    width: 170px; }
+  #fullWrapper #mbrtWrapper #section-14 .innerCarousel .carouselTitle {
+    width: 250px; } }
+
+/*# sourceMappingURL=app.css.map */

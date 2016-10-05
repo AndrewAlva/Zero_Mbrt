@@ -1,0 +1,52 @@
+
+// CONTACT FINAL SECTION
+	#section-15{
+		.contactLetter{
+			.contactTitle{
+				h1{
+					color: $light-gray;
+				}
+			}
+
+			.indexRow{
+				h5{
+					color: $light-gray;
+					@include trans_title(0.6s);
+				}
+
+				h5:before{
+					@include blackHover();
+				}
+			}
+
+			.firstRow{
+				.innerHeadRow{
+					color: $light-gray;
+					@include trans_title(0.6s);
+				}
+
+				.innerHeadRow:before{
+					@include blackHover();
+				}
+			}
+			
+
+			.bottomBox{
+				a:before{
+					position: absolute;
+					overflow: hidden;
+					max-width: 0;
+					color: $black;
+					cursor: pointer;
+					content: attr(data-hover);
+					white-space: nowrap;
+					@include trans_before_title(0.6s);
+				}
+
+				a:hover:before{
+					max-width: 100%;
+				}
+			}
+		}
+	}
+// END CONTACT

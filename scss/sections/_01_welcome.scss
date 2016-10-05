@@ -1,0 +1,55 @@
+
+// WELCOME SECTION
+	#section-1{
+		#receiverLetter{
+			height: 640px;
+			
+			.introTitle{
+				width: 900px;
+				margin-bottom: 27px;
+
+				.maskTitle{
+					h1{
+						width: 900px;
+					}
+				}
+			}
+
+
+			.introParagraph{
+				margin-bottom: 46px;
+			}
+
+			#welcomePara-1{
+				height: 142px;
+			}
+			#welcomePara-2, #welcomePara-3{
+				height: 53px;
+			}
+
+
+			.introQuotes{
+				margin-bottom: 40px;
+			}
+
+			#welcomeQuote-1{
+				width: 760px;
+
+				.maskTitle{
+					h2{
+						width: 760px;
+					}
+				}
+			}
+			#welcomeQuote-2{
+				width: 660px;
+
+				.maskTitle{
+					h2{
+						width: 660px;
+					}
+				}
+			}
+		}
+	}
+// END WELCOME SECTION

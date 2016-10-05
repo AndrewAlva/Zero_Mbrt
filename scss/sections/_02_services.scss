@@ -1,0 +1,107 @@
+
+// SERVICES INDEX SECTION
+	#section-2{
+		#servicesLetter{
+			height: 690px;
+
+			.introTitle{
+				width: 465px;
+				margin-bottom: 30px;
+
+				.maskTitle{
+					h1{
+						width: 465px;
+					}
+				}
+			}
+			
+			.introParagraph{
+				height: 90px;
+				margin-bottom: 87px;
+			}
+
+			.introQuotes{
+				width: 425px;
+				margin-bottom: 42px;
+
+				.maskTitle{
+					h2{
+						width: 425px;
+					}
+				}
+			}
+
+			#servicesList{
+				position: relative;
+				width: 100%;
+
+				#column-1{
+					width: 21.9%;
+
+					.maskTitle{
+						width: 120px;
+
+						.maskedText{
+							width: 120px;
+						}
+					}
+				}
+				#column-2{
+					width: 27.9%;
+
+					.maskTitle{
+						width: 110px;
+
+						.maskedText{
+							width: 110px;
+						}
+					}
+				}
+				#column-3{
+					width: 28.3%;
+
+					.maskTitle{
+						width: 300px;
+
+						.maskedText{
+							width: 300px;
+						}
+					}
+				}
+				#column-4{
+					width: 21.9%;
+
+					.maskTitle{
+						width: 90px;
+
+						.maskedText{
+							width: 90px;
+						}
+					}
+				}
+
+				th{
+					vertical-align: top;
+					text-align: left;
+					font-size: 25px;
+					line-height: 1.4em;
+					padding-bottom: 30px;
+					font-weight: bolder;
+					color: $light-gray;
+					@include trans_title(0.6s);
+				}
+
+				th:before{
+					@include blackHover();
+				}
+
+				td{
+					font-size: 11.8px;
+					line-height: 2.13em;
+					letter-spacing: 0.1em;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+// END SERVICES INDEX
