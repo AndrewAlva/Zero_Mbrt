@@ -1,21 +1,15 @@
 	// VARS LOAD CURRENT SECTION
 	var currentSectionId;
 
-	// window.onload = function(){
-	// 	setTimeout(function(){
-	// 		// Fade out loader
-	// 		$('#mbrtLoader').addClass('crystalLoader');
-			
-	// 		// Restart Intro gif animation
-	// 		$('#mbrtGIF').attr('src', 'img/brand/main_logo.gif?' + Math.random() + ' alt="Mandelbrot Brands Studio">');
-
-	// 		// Remove loader after fadeout is complete
-	// 		setTimeout(function(){$('#mbrtLoader').remove();},1600);
-	// 	}, 900);
-	// };
+	window.onload = function(){
+		setTimeout(function(){
+			Slider.loaded();
+		},1000);
+	};
 
 	$(document).ready(function(){
 		Slider.init();
+		Slider.loading();
 
 		// Set and Initialize all carousels
 			var Logos = new Carousel('#section-4', '#logos-', '#logosBar-');

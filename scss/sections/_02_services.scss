@@ -2,33 +2,21 @@
 // SERVICES INDEX SECTION
 	#section-2{
 		#servicesLetter{
-			height: 690px;
+			height: 500px;
 
 			.introTitle{
-				width: 465px;
-				margin-bottom: 30px;
-
-				.maskTitle{
-					h1{
-						width: 465px;
-					}
-				}
+				width: 375px;
+				margin-bottom: 45px;
 			}
 			
 			.introParagraph{
-				height: 90px;
-				margin-bottom: 87px;
+				height: 60px;
+				margin-bottom: 65px;
 			}
 
 			.introQuotes{
-				width: 425px;
+				width: 365px;
 				margin-bottom: 42px;
-
-				.maskTitle{
-					h2{
-						width: 425px;
-					}
-				}
 			}
 
 			#servicesList{
@@ -36,7 +24,7 @@
 				width: 100%;
 
 				#column-1{
-					width: 21.9%;
+					width: 25%;
 
 					.maskTitle{
 						width: 120px;
@@ -47,7 +35,7 @@
 					}
 				}
 				#column-2{
-					width: 27.9%;
+					width: 25%;
 
 					.maskTitle{
 						width: 110px;
@@ -58,7 +46,7 @@
 					}
 				}
 				#column-3{
-					width: 28.3%;
+					width: 25%;
 
 					.maskTitle{
 						width: 300px;
@@ -69,7 +57,7 @@
 					}
 				}
 				#column-4{
-					width: 21.9%;
+					width: 25%;
 
 					.maskTitle{
 						width: 90px;
@@ -85,7 +73,6 @@
 					text-align: left;
 					font-size: 25px;
 					line-height: 1.4em;
-					padding-bottom: 30px;
 					font-weight: bolder;
 					color: $light-gray;
 					@include trans_title(0.6s);

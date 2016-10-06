@@ -82,67 +82,57 @@
       bottom: 0; }
 
 #section-1 #receiverLetter {
-  height: 640px; }
+  height: 490px; }
   #section-1 #receiverLetter .introTitle {
     width: 900px;
-    margin-bottom: 27px; }
-    #section-1 #receiverLetter .introTitle .maskTitle h1 {
-      width: 900px; }
+    margin-bottom: 35px; }
   #section-1 #receiverLetter .introParagraph {
     margin-bottom: 46px; }
   #section-1 #receiverLetter #welcomePara-1 {
-    height: 142px; }
-  #section-1 #receiverLetter #welcomePara-2, #section-1 #receiverLetter #welcomePara-3 {
+    height: 170px; }
+    #section-1 #receiverLetter #welcomePara-1 .black {
+      color: #06111a; }
+  #section-1 #receiverLetter #welcomePara-2 {
     height: 53px; }
   #section-1 #receiverLetter .introQuotes {
     margin-bottom: 40px; }
   #section-1 #receiverLetter #welcomeQuote-1 {
-    width: 760px; }
-    #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
-      width: 760px; }
-  #section-1 #receiverLetter #welcomeQuote-2 {
-    width: 660px; }
-    #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
-      width: 660px; }
+    width: 175px; }
 
 #section-2 #servicesLetter {
-  height: 690px; }
+  height: 500px; }
   #section-2 #servicesLetter .introTitle {
-    width: 465px;
-    margin-bottom: 30px; }
-    #section-2 #servicesLetter .introTitle .maskTitle h1 {
-      width: 465px; }
+    width: 375px;
+    margin-bottom: 45px; }
   #section-2 #servicesLetter .introParagraph {
-    height: 90px;
-    margin-bottom: 87px; }
+    height: 60px;
+    margin-bottom: 65px; }
   #section-2 #servicesLetter .introQuotes {
-    width: 425px;
+    width: 365px;
     margin-bottom: 42px; }
-    #section-2 #servicesLetter .introQuotes .maskTitle h2 {
-      width: 425px; }
   #section-2 #servicesLetter #servicesList {
     position: relative;
     width: 100%; }
     #section-2 #servicesLetter #servicesList #column-1 {
-      width: 21.9%; }
+      width: 25%; }
       #section-2 #servicesLetter #servicesList #column-1 .maskTitle {
         width: 120px; }
         #section-2 #servicesLetter #servicesList #column-1 .maskTitle .maskedText {
           width: 120px; }
     #section-2 #servicesLetter #servicesList #column-2 {
-      width: 27.9%; }
+      width: 25%; }
       #section-2 #servicesLetter #servicesList #column-2 .maskTitle {
         width: 110px; }
         #section-2 #servicesLetter #servicesList #column-2 .maskTitle .maskedText {
           width: 110px; }
     #section-2 #servicesLetter #servicesList #column-3 {
-      width: 28.3%; }
+      width: 25%; }
       #section-2 #servicesLetter #servicesList #column-3 .maskTitle {
         width: 300px; }
         #section-2 #servicesLetter #servicesList #column-3 .maskTitle .maskedText {
           width: 300px; }
     #section-2 #servicesLetter #servicesList #column-4 {
-      width: 21.9%; }
+      width: 25%; }
       #section-2 #servicesLetter #servicesList #column-4 .maskTitle {
         width: 90px; }
         #section-2 #servicesLetter #servicesList #column-4 .maskTitle .maskedText {
@@ -152,7 +142,6 @@
       text-align: left;
       font-size: 25px;
       line-height: 1.4em;
-      padding-bottom: 30px;
       font-weight: bolder;
       color: #c9c9c9;
       -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1), color 0.6s cubic-bezier(0.65, 0, 0.25, 1) 0.6s;
@@ -272,13 +261,11 @@
 
 .testSquare {
   position: fixed;
-  width: 230px;
-  height: 18px;
+  width: 50%;
+  height: 100%;
   margin: auto;
   top: 0;
-  bottom: 300px;
   left: 0;
-  right: 0;
   border: 1px solid red;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -312,13 +299,18 @@
       line-height: 50px;
       margin: auto;
       top: 0;
-      bottom: 0;
+      bottom: 5%;
       left: 0;
       right: 0; }
       #fullWrapper #mbrtLoader .centeredWrapper .innerLoaderBoxes {
         position: relative;
         display: table;
-        width: 100%; }
+        width: 100%;
+        -webkit-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+        -moz-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+        -ms-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+        -o-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+        transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16); }
       #fullWrapper #mbrtLoader .centeredWrapper .quotesBox {
         height: 107px; }
         #fullWrapper #mbrtLoader .centeredWrapper .quotesBox p {
@@ -360,9 +352,21 @@
           -o-transform: none;
           transform: none; }
       #fullWrapper #mbrtLoader .centeredWrapper .loadingBox {
-        height: 170px; }
+        height: 170px;
+        -webkit-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+        -moz-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+        -ms-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+        -o-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+        transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16); }
         #fullWrapper #mbrtLoader .centeredWrapper .loadingBox h1 {
-          display: table-cell;
+          position: absolute;
+          width: 150px;
+          height: 47px;
+          margin: auto;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
           vertical-align: middle;
           font-size: 39px; }
       #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox {
@@ -376,10 +380,15 @@
           left: 0;
           right: 0; }
           #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons i {
-            opacity: 0.4;
-            filter: alpha(opacity=40);
+            opacity: 0.3;
+            filter: alpha(opacity=30);
             filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
-            -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
+            -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+            -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            -o-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
+            transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1); }
           #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .active {
             opacity: 1;
             filter: alpha(opacity=100);
@@ -392,7 +401,12 @@
             height: 63px;
             margin: auto;
             top: 0;
-            bottom: 0; }
+            bottom: 0;
+            -webkit-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+            -moz-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+            -ms-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+            -o-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+            transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16); }
             #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .mouse i {
               position: absolute;
               margin: auto;
@@ -407,7 +421,12 @@
             height: 63px;
             margin: auto;
             top: 0;
-            bottom: 0; }
+            bottom: 0;
+            -webkit-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+            -moz-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+            -ms-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+            -o-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+            transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16); }
             #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .icons .arrowKeys .keys {
               position: absolute;
               width: 32px;
@@ -431,7 +450,12 @@
           position: relative;
           display: table;
           width: 100%;
-          height: 48px; }
+          height: 48px;
+          -webkit-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+          -moz-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+          -ms-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+          -o-transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16);
+          transition: all 0.5s cubic-bezier(0.44, 0.01, 0.47, 1.16); }
           #fullWrapper #mbrtLoader .centeredWrapper .instructionsBox .description p {
             display: table-cell;
             color: #97979b;
@@ -442,11 +466,6 @@
             filter: alpha(opacity=0);
             filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
             -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
-            -webkit-transform: translateY(15px);
-            -moz-transform: translateY(15px);
-            -ms-transform: translateY(15px);
-            -o-transform: translateY(15px);
-            transform: translateY(15px);
             -webkit-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
             -moz-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
             -ms-transition: all 0.6s cubic-bezier(0.65, 0, 0.25, 1);
@@ -456,12 +475,17 @@
             opacity: 1;
             filter: alpha(opacity=100);
             filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
-            -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
-            -webkit-transform: none;
-            -moz-transform: none;
-            -ms-transform: none;
-            -o-transform: none;
-            transform: none; }
+            -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
+      #fullWrapper #mbrtLoader .centeredWrapper .smoothIntro {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+        -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))';
+        -webkit-transform: translateY(30px);
+        -moz-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+        -o-transform: translateY(30px);
+        transform: translateY(30px); }
   #fullWrapper .crystalLoader {
     opacity: 0;
     filter: alpha(opacity=0);
@@ -640,7 +664,7 @@
           transition: max-width 1.2s cubic-bezier(0.65, 0, 0.25, 1); }
       #fullWrapper #mbrtWrapper .introSection .introLetter .introParagraph p {
         width: 100%;
-        font-size: 25px;
+        font-size: 24px;
         line-height: 1.2em; }
       #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes {
         height: 55px; }
@@ -947,10 +971,14 @@
             -moz-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
             -ms-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
             -o-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
-            transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1); }
+            transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+            opacity: 0.3;
+            filter: alpha(opacity=30);
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+            -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
             #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .arrow a:hover {
-              opacity: 0.6;
-              filter: alpha(opacity=60);
+              opacity: 1;
+              filter: alpha(opacity=100);
               filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
               -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
             #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .arrow a i {
@@ -1142,10 +1170,14 @@
           -moz-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
           -ms-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
           -o-transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
-          transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1); }
+          transition: all 0.4s cubic-bezier(0.65, 0, 0.25, 1);
+          opacity: 0.3;
+          filter: alpha(opacity=30);
+          filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
+          -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
           #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .arrow a:hover {
-            opacity: 0.6;
-            filter: alpha(opacity=60);
+            opacity: 1;
+            filter: alpha(opacity=100);
             filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=($val * 100));
             -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(($val * 100))'; }
           #fullWrapper #mbrtWrapper .carouselVertSection .innerCarousel .arrow a i {
@@ -1676,38 +1708,29 @@
       #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2 {
         font-size: 36.6px; }
   #fullWrapper #mbrtWrapper #section-1 #receiverLetter {
-    height: 615px; }
+    height: 470px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle {
       width: 860px;
       margin-bottom: 26px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle .maskTitle h1 {
-        width: 860px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introParagraph {
       margin-bottom: 44.3px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-1 {
-      height: 135px; }
+      height: 170px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introQuotes {
       margin-bottom: 38.5px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 {
-      width: 740px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
-        width: 740px; }
-    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 {
-      width: 640px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
-        width: 640px; }
+      width: 165px; }
   #fullWrapper #mbrtWrapper #section-2 #servicesLetter {
-    height: 670px; }
+    height: 470px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introTitle {
       margin-bottom: 28.9px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introParagraph {
-      height: 83px;
-      margin-bottom: 83.8px; }
+      height: 63px;
+      margin-bottom: 57.8px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introQuotes {
       margin-bottom: 40.4px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList th {
-      font-size: 23.6px;
-      padding-bottom: 28.9px; }
+      font-size: 23.6px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle {
       width: 110px; }
       #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle .maskedText {
@@ -1760,44 +1783,35 @@
       #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2 {
         font-size: 34.6px; }
   #fullWrapper #mbrtWrapper #section-1 #receiverLetter {
-    height: 590px; }
+    height: 460px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle {
       width: 820px;
       margin-bottom: 24.8px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle .maskTitle h1 {
-        width: 820px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introParagraph {
       margin-bottom: 41.9px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-1 {
-      height: 130px; }
+      height: 165px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introQuotes {
       margin-bottom: 36.4px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 {
-      width: 700px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
-        width: 700px; }
+      width: 160px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 {
       width: 600px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
-        width: 600px; }
   #fullWrapper #mbrtWrapper #section-2 #servicesLetter {
-    height: 580px; }
+    height: 450px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introTitle {
       margin-bottom: 27.3px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introParagraph {
-      height: 80px;
-      margin-bottom: 79.2px; }
+      height: 60px;
+      margin-bottom: 49.2px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introQuotes {
       margin-bottom: 38.2px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList th {
-      font-size: 22.3px;
-      padding-bottom: 27.3px; }
+      font-size: 22.3px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle {
       width: 260px; }
       #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle .maskedText {
         width: 260px; }
-    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList td {
-      font-size: 8px; }
   #fullWrapper #mbrtWrapper .carouselSection .innerCarousel {
     height: 770px; }
     #fullWrapper #mbrtWrapper .carouselSection .innerCarousel .carouselImages .projectsWrapper .projectPhoto .projectData .innerCenteredBox {
@@ -1848,40 +1862,31 @@
       #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2 {
         font-size: 32.6px; }
   #fullWrapper #mbrtWrapper #section-1 #receiverLetter {
-    height: 560px; }
+    height: 430px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle {
       width: 780px;
       margin-bottom: 23.2px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle .maskTitle h1 {
-        width: 780px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introParagraph {
       margin-bottom: 39.5px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-1 {
-      height: 122px; }
-    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-2, #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-3 {
+      height: 155px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-2 {
       height: 52px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introQuotes {
       margin-bottom: 34.3px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 {
-      width: 660px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
-        width: 660px; }
-    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 {
-      width: 570px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
-        width: 570px; }
+      width: 150px; }
   #fullWrapper #mbrtWrapper #section-2 #servicesLetter {
-    height: 550px; }
+    height: 430px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introTitle {
       margin-bottom: 25.7px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introParagraph {
-      height: 75px;
-      margin-bottom: 74.7px; }
+      height: 55px;
+      margin-bottom: 44.7px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introQuotes {
       margin-bottom: 36px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList th {
-      font-size: 18.9px;
-      padding-bottom: 25.7px; }
+      font-size: 18.9px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle {
       width: 95px; }
       #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle .maskedText {
@@ -1932,40 +1937,33 @@
       #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2 {
         font-size: 27.7px; }
   #fullWrapper #mbrtWrapper #section-1 #receiverLetter {
-    height: 490px; }
+    height: 375px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle {
       width: 680px;
       margin-bottom: 19.6px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle .maskTitle h1 {
-        width: 680px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introParagraph {
       margin-bottom: 33.5px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-1 {
-      height: 105px; }
-    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-2, #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-3 {
+      height: 130px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-2 {
       height: 45px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introQuotes {
       margin-bottom: 29.1px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 {
-      width: 560px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
-        width: 560px; }
-    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 {
-      width: 480px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
-        width: 480px; }
+      width: 130px; }
   #fullWrapper #mbrtWrapper #section-2 #servicesLetter {
-    height: 510px; }
+    height: 390px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introTitle {
       margin-bottom: 21.8px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introParagraph {
-      height: 65px;
-      margin-bottom: 63.4px; }
+      height: 45px;
+      margin-bottom: 33.4px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introQuotes {
       margin-bottom: 30.6px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList th {
-      font-size: 17.3px;
-      padding-bottom: 21.8px; }
+      font-size: 17.3px; }
+    #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList td {
+      font-size: 11px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle {
       width: 205px; }
       #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-3 .maskTitle .maskedText {
@@ -2064,40 +2062,31 @@
       #fullWrapper #mbrtWrapper .introSection .introLetter .introQuotes h2 {
         font-size: 25.3px; }
   #fullWrapper #mbrtWrapper #section-1 #receiverLetter {
-    height: 450px; }
+    height: 340px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle {
       width: 610px;
       margin-bottom: 18px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introTitle .maskTitle h1 {
-        width: 610px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introParagraph {
       margin-bottom: 30.6px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-1 {
-      height: 95px; }
-    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-2, #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-3 {
+      height: 120px; }
+    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomePara-2 {
       height: 40px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter .introQuotes {
       margin-bottom: 26.6px; }
     #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 {
-      width: 510px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-1 .maskTitle h2 {
-        width: 510px; }
-    #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 {
-      width: 440px; }
-      #fullWrapper #mbrtWrapper #section-1 #receiverLetter #welcomeQuote-2 .maskTitle h2 {
-        width: 440px; }
+      width: 115px; }
   #fullWrapper #mbrtWrapper #section-2 #servicesLetter {
-    height: 450px; }
+    height: 330px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introTitle {
       margin-bottom: 20px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introParagraph {
-      height: 57px;
-      margin-bottom: 58px; }
+      height: 37px;
+      margin-bottom: 28px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter .introQuotes {
       margin-bottom: 28px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList th {
-      font-size: 13.8px;
-      padding-bottom: 20px; }
+      font-size: 13.8px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle {
       width: 70px; }
       #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-1 .maskTitle .maskedText {
@@ -2115,7 +2104,7 @@
       #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList #column-4 .maskTitle .maskedText {
         width: 50px; }
     #fullWrapper #mbrtWrapper #section-2 #servicesLetter #servicesList td {
-      font-size: 7px; }
+      font-size: 9px; }
   #fullWrapper #mbrtWrapper #section-3 .nameSection {
     width: 235px; }
   #fullWrapper #mbrtWrapper #section-4 .innerCarousel .carouselTitle {

@@ -54,6 +54,14 @@
 	        transition: all $timing cubic-bezier(.65,0,.25,1), color $timing cubic-bezier(.65,0,.25,1) $timing;
 }
 
+@mixin bounce_trans($timing){
+	-webkit-transition: all $timing cubic-bezier(.44,.01,.47,1.16);
+	   -moz-transition: all $timing cubic-bezier(.44,.01,.47,1.16);
+	    -ms-transition: all $timing cubic-bezier(.44,.01,.47,1.16);
+	     -o-transition: all $timing cubic-bezier(.44,.01,.47,1.16);
+	        transition: all $timing cubic-bezier(.44,.01,.47,1.16);
+}
+
 @mixin blackHover(){
 	position: absolute;
 	overflow: hidden;

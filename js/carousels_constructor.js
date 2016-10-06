@@ -166,6 +166,7 @@ function Carousel(sectId, projPrefix, projBarPrefix, carouselOrientation, projBr
 	};
 
 	// The next two functions are ONLY for vertical orientation carousels
+	// 
 	// There are 3 data to move: Brand Data, Brief Data and Client Data
 	// So, first let's deactive the current showing data
 	this.deactiveProjectData = function(){

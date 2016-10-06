@@ -21,10 +21,10 @@
 
 .testSquare{
 	position: fixed;
-	width: 230px;
-	height: 18px;
+	width: 50%;
+	height: 100%;
 	margin: auto;
-	top: 0; bottom: 300px; left: 0; right: 0;
+	top: 0; left: 0;
 	border: 1px solid red;
 	@include boxSizeFit();
 	z-index: 1000;
@@ -55,12 +55,13 @@
 				height: 472px;
 				line-height: 50px;
 				margin: auto;
-				top: 0; bottom: 0; left: 0; right: 0;
+				top: 0; bottom: 5%; left: 0; right: 0;
 
 				.innerLoaderBoxes{
 					position: relative;
 					display: table;
 					width: 100%;
+					@include bounce_trans(0.5s);
 				}
 				
 				.quotesBox{
@@ -97,9 +98,14 @@
 				}
 				.loadingBox{
 					height: 170px;
+					@include bounce_trans(0.5s);
 
 					h1{
-						display: table-cell;
+						position: absolute;
+						width: 150px;
+						height: 47px;
+						margin: auto;
+						top: 0; bottom: 0; left: 0; right: 0;
 						vertical-align: middle;
 						font-size: 39px;
 					}
@@ -116,7 +122,8 @@
 						left: 0; right: 0;
 
 						i{
-							@include opacity(0.4);
+							@include opacity(0.3);
+							@include transitions(0.6s);
 						}
 						.active{
 							@include opacity(1);
@@ -129,6 +136,7 @@
 							height: 63px;
 							margin: auto;
 							top: 0; bottom: 0;
+							@include bounce_trans(0.5s);
 
 							i{
 								position: absolute;
@@ -144,6 +152,7 @@
 							height: 63px;
 							margin: auto;
 							top: 0; bottom: 0;
+							@include bounce_trans(0.5s);
 
 							.keys{
 								position: absolute;
@@ -179,6 +188,7 @@
 						display: table;
 						width: 100%;
 						height: 48px;
+						@include bounce_trans(0.5s);
 
 						p{
 							display: table-cell;
@@ -187,23 +197,22 @@
 							-webkit-font-smoothing: antialiased !important;
 							text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 							@include opacity(0);
-							-webkit-transform: translateY(15px);
-							   -moz-transform: translateY(15px);
-							    -ms-transform: translateY(15px);
-							     -o-transform: translateY(15px);
-							        transform: translateY(15px);
 					        @include transitions(0.6s);
 						}
 
 						.active{
 							@include opacity(1);
-							-webkit-transform: none;
-							   -moz-transform: none;
-							    -ms-transform: none;
-							     -o-transform: none;
-							        transform: none;
 						}
 					}
+				}
+
+				.smoothIntro{
+					@include opacity(0);
+					-webkit-transform: translateY(30px);
+					   -moz-transform: translateY(30px);
+					    -ms-transform: translateY(30px);
+					     -o-transform: translateY(30px);
+					        transform: translateY(30px);
 				}
 			}
 		}
@@ -367,7 +376,7 @@
 					.introParagraph{
 						p{
 							width: 100%;
-							font-size: 25px;
+							font-size: 24px;
 							line-height: 1.2em;
 						}
 					}
@@ -618,9 +627,10 @@
 								height: 100%;
 								display: block;
 								@include transitions(0.4s);
+								@include opacity(0.3);
 
 								&:hover{
-									@include opacity(0.6);
+									@include opacity(1);
 								}
 
 								i{
@@ -815,9 +825,10 @@
 							height: 100%;
 							display: block;
 							@include transitions(0.4s);
+							@include opacity(0.3);
 
 							&:hover{
-								@include opacity(0.6);
+								@include opacity(1);
 							}
 
 							i{

@@ -2,17 +2,11 @@
 // WELCOME SECTION
 	#section-1{
 		#receiverLetter{
-			height: 640px;
+			height: 490px;
 			
 			.introTitle{
 				width: 900px;
-				margin-bottom: 27px;
-
-				.maskTitle{
-					h1{
-						width: 900px;
-					}
-				}
+				margin-bottom: 35px;
 			}
 
 
@@ -21,9 +15,13 @@
 			}
 
 			#welcomePara-1{
-				height: 142px;
+				height: 170px;
+
+				.black{
+					color: $black;
+				}
 			}
-			#welcomePara-2, #welcomePara-3{
+			#welcomePara-2{
 				height: 53px;
 			}
 
@@ -33,22 +31,7 @@
 			}
 
 			#welcomeQuote-1{
-				width: 760px;
-
-				.maskTitle{
-					h2{
-						width: 760px;
-					}
-				}
-			}
-			#welcomeQuote-2{
-				width: 660px;
-
-				.maskTitle{
-					h2{
-						width: 660px;
-					}
-				}
+				width: 175px;
 			}
 		}
 	}
