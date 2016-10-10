@@ -47,7 +47,24 @@
         <!-- PLACE_HERE_YOUR_FBASYNCINIT()_FUNCTION_FOR_THE_APP -->
 
         <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <div id="updateWrapper" style="position: fixed; width: 100%; height: 100%; z-index: 1000000000; background-color: #fff; overflow: hidden;">
+                <div class="centeredBox" style="position: absolute; display: table; width: 650px; height: 350px; margin-top: -175px; margin-left: -325px; top: 50%; left: 50%; text-align: center; border: 1px solid #ccc; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 30px 30px;">
+                    <p class="browserupgrade" style="display: table-cell; vertical-align: middle; background-color: #fff; color: #97979b;">
+                        We are commited to bring you the best experiences but on some cases (like this one) we can't because you are using an outdated browser. <br><br>
+                        Please <a target="_blank" href="http://browsehappy.com/" style="color:#000;">upgrade your browser here</a> to improve your experience and come back so we can keep pushing the web forward and enjoying delightful experiences. <br><br><br>
+                        Thank you. <br> <br>
+                        <a href="https://www.facebook.com/mandelbrotstudio/" target="_blank" style="color:#000;"><img src="img/brand/top_logo.png" alt="Mandelbrot"></a>
+                    </p>
+                </div>
+
+                <script>
+                    // Shut down site
+                    window.addEventListener("DOMContentLoaded", function() {
+                        var fullDocument = document.getElementById("fullWrapper");
+                        fullDocument.parentNode.removeChild(fullDocument);
+                    }, false);
+                </script>
+            </div>
         <![endif]-->
 
         <!-- Add your site or application content here -->
