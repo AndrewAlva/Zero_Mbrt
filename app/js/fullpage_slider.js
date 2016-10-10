@@ -12,7 +12,7 @@
 		instructions: ["Scroll / Keyboard UP & DOWN to change of section.", "Use keyboard LEFT & RIGHT keys to switch projects."],
 
 		// Loading instructions timing between switching
-		instructionsTiming: 4000,
+		instructionsTiming: 2500,
 
 		// Loading portfolio quotes, in this case are from Zero
 		zeroQuotes: ["God is in the details.", "End to end craftsman.", "80's passionate lover.", "Dog lover."],
@@ -110,7 +110,7 @@
 							};
 							
 						}, 600);
-					}, (Slider.instructionsTiming / 2));
+					}, (Slider.instructionsTiming * 2));
 				};
 			}
 
