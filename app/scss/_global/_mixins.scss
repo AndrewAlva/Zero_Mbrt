@@ -81,6 +81,7 @@
 }
 
 @mixin writingBar(){
+	border-right: 4px solid rgba(151,151,155,1);
 	-webkit-animation: writingBar 0.8s ease infinite alternate;
 	   -moz-animation: writingBar 0.8s ease infinite alternate;
 	    -ms-animation: writingBar 0.8s ease infinite alternate;

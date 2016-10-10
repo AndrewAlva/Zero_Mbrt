@@ -699,6 +699,7 @@
         height: 75px;
         line-height: 4em; }
         #fullWrapper #mbrtWrapper .introSection .introLetter .introTitle .writtingAnimation {
+          border-right: 4px solid #97979b;
           -webkit-animation: writingBar 0.8s ease infinite alternate;
           -moz-animation: writingBar 0.8s ease infinite alternate;
           -ms-animation: writingBar 0.8s ease infinite alternate;
@@ -815,6 +816,7 @@
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
+        border-right: 4px solid #97979b;
         -webkit-animation: writingBar 0.8s ease infinite alternate;
         -moz-animation: writingBar 0.8s ease infinite alternate;
         -ms-animation: writingBar 0.8s ease infinite alternate;
@@ -1555,6 +1557,7 @@
             position: absolute;
             margin: 0;
             font-size: 65px;
+            border-right: 4px solid #97979b;
             -webkit-animation: writingBar 0.8s ease infinite alternate;
             -moz-animation: writingBar 0.8s ease infinite alternate;
             -ms-animation: writingBar 0.8s ease infinite alternate;
@@ -1595,11 +1598,8 @@
             width: 50.1%;
             height: 48.8%;
             display: table;
-            margin: auto;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
+            top: 24.4%;
+            left: 25.05%;
             border: 1px solid #c9c9c9;
             color: #97979b;
             font-weight: 700;
