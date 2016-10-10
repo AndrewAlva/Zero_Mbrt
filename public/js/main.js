@@ -71,7 +71,6 @@
 			});
 
 			function carouselNextProject(){
-				event.preventDefault();
 				switch (Slider.sectionActive){
 					case 4:
 						Logos.next();
@@ -112,7 +111,6 @@
 			}
 
 			function carouselPrevProject(){
-				event.preventDefault();
 				switch (Slider.sectionActive){
 					case 4:
 						Logos.prev();
@@ -153,7 +151,6 @@
 			}
 
 			function carouselGoToProject(index){
-				event.preventDefault();
 				switch (Slider.sectionActive){
 					case 4:
 						Logos.goTo(index);
