@@ -4,10 +4,10 @@
 		event.preventDefault();
 
 		// Detect if user is scrolling down
-		if (event.deltaY < -30) {
+		if (event.deltaY < (Slider.sensibility * -1)) {
 			Slider.next();
 
-		} else if (event.deltaY > 30){
+		} else if (event.deltaY > (Slider.sensibility * 1)){
 			Slider.prev();
 
 		};

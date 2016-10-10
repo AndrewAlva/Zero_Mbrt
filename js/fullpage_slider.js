@@ -1,4 +1,7 @@
 	var Slider = {
+		// Variable user is using an iOS or a Windows device
+		is_Mac: undefined,
+
 		// Flag to prevent overlapping transitions between sections
 		canScroll: true,
 
@@ -34,6 +37,9 @@
 
 		// Pause to color screen titles
 		pauseColorTitle: 500,
+
+		// Determine the scroll sensibility according to the operative system used
+		sensibility: 0,
 
 		// Loading screen function
 		loading: function(){
@@ -164,18 +170,22 @@
 
 		// Hide the loading screen
 		loaded: function(){
+			// Restart Intro gif animation
+			$('#mbrtGIF').attr('src', 'img/brand/main_logo.gif?' + Math.random() + ' alt="Mandelbrot Brands Studio">');
+				
 			setTimeout(function(){
 				// Active flag to prevent loading function
 				Slider.isLoading = false;
 
 				// Fade out loader
 				$('#mbrtLoader').addClass('crystalLoader');
-				
-				// Restart Intro gif animation
-				$('#mbrtGIF').attr('src', 'img/brand/main_logo.gif?' + Math.random() + ' alt="Mandelbrot Brands Studio">');
 
 				// Remove loader after fadeout is complete
 				setTimeout(function(){$('#mbrtLoader').remove();},1600);
+
+				// Color the new section title
+				Slider.colorTitle('.animatedTitle-' + Slider.sectionActive);
+
 			}, Slider.duration);
 		},
 
@@ -204,6 +214,12 @@
 			// If the user arrived to any section except index section show the main navs, else hide them
 			if(Slider.sectionActive >= 1) Slider.showMainNavs();
 			else Slider.hideMainNavs();
+
+			// Determine the OS of the device and adjust sensibility according to it
+			Slider.is_Mac = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false;
+			if (Slider.is_Mac) {
+				Slider.sensibility = 10;
+			};
 		},
 
 		// Go prev section, only if there is a prev section to go
@@ -260,6 +276,9 @@
 				// Update active right nav bar
 				Slider.setMainNavs(index);
 
+				// Decolor title of actual section
+				Slider.decolorTitle('.animatedTitle-' + Slider.sectionActive);
+
 				// Make a tiny pause(100ms) until the new section is in position
 				setTimeout(function(){
 					// Move the new section to show it
@@ -271,6 +290,10 @@
 					setTimeout(function(){
 						$('#section-' + Slider.sectionActive).removeClass('activeSlide');
 						$('#section-' + Slider.sectionActive).removeClass(currentSectionMove);
+
+						// Color the new section title
+						Slider.colorTitle('.animatedTitle-' + index);
+						
 						Slider.setStates(index);
 						Slider.canScroll = true;
 
@@ -371,9 +394,15 @@
 		},
 
 		// Give color (from gray to black) to every title
-		colorTitle: function(target, callback){
+		colorTitle: function(target){
 			$(target).addClass('activeTitle');
-			callback();
+			
+		},
+
+		// Take color (from black to gray) to every title
+		decolorTitle: function(target){
+			$(target).removeClass('activeTitle');
+			
 		},
 
 		// Display all the text lines in order, 

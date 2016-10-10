@@ -613,12 +613,14 @@
 		#mbrtWrapper{
 			// Global Right Navigator
 			#rightBarsNav{
-				height: 280px;
+				height: 370px;
 
 				.barsWrapper{
 					.navBar{
+						margin-bottom: 50%;
+
 						.navName{
-							font-size: 0.45em;
+							font-size: 7px;
 						}
 					}
 				}
@@ -791,6 +793,17 @@
 @media screen and (max-width: 1279px){
 	#fullWrapper{
 		#mbrtWrapper{
+
+			// Global Right Navigator
+			#rightBarsNav{
+				height: 320px;
+
+				.barsWrapper{
+					.navBar{
+						margin-bottom: 58%;
+					}
+				}
+			}
 
 			// Cover Section
 			.coverSection{
@@ -1209,6 +1222,22 @@
 					}
 				}
 			}
+		}
+	}
+}
+
+// Lower than Tablet Size
+@media screen and (max-width: 1023px){
+	#mobileWrapper{
+		display: block;
+	}
+}
+
+// Tablet Size but Vertical
+@media screen and (orientation: portrait) and (min-width: 768px){
+	#mobileWrapper{
+		.vertical{
+			display: block;
 		}
 	}
 }

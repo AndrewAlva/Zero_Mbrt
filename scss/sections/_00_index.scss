@@ -24,9 +24,10 @@
 			bottom: 50px;
 			cursor: pointer;
 			@include transitions(0.4s);
+			@include opacity(0.3);
 
 			&:hover{
-				@include opacity(0.6);
+				@include opacity(1);
 			}
 
 			.startText{
@@ -38,6 +39,7 @@
 				letter-spacing: 2px;
 				text-align: center;
 				margin-bottom: 17px;
+				color: $black;
 			}
 
 			.startGo{

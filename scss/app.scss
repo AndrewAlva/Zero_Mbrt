@@ -1,6 +1,7 @@
 @import '_global/mixins';
 @import '_global/vars';
 @import '_global/effects';
+@import '_global/sprites';
 
 @import'sections/00_index';
 @import'sections/01_welcome';
@@ -38,6 +39,7 @@
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
+		z-index: 1;
 
 		#mbrtLoader{
 			position: absolute;
@@ -286,6 +288,7 @@
 							line-height: 1.2em;
 							top: -0.62em;
 							right: 0;
+							padding-right: 0;
 							@include boxSizeFit();
 							color: $nav-black-deactive;
 							@include trans-delayed(0.6s, 0.2s);
@@ -570,12 +573,10 @@
 											text-align: center;
 											font-size: 15px;
 											color: $mid-gray;
-											background-color: $link-mid-gray-deactive;
 											@include transitions(0.6s);
 
 											&:hover{
-												color: #fff;
-												background-color: $link-mid-gray-active;
+												color: $black;
 											}
 										}
 									}
@@ -677,6 +678,7 @@
 								background-color: $light-gray;
 								cursor: pointer;
 								@include transitions(0.6s);
+								@include opacity(1);
 								overflow: hidden;
 
 								&:hover{
@@ -1029,6 +1031,7 @@
 								background-color: $light-gray;
 								cursor: pointer;
 								@include transitions(0.6s);
+								@include opacity(1);
 								overflow: hidden;
 
 								&:hover{
@@ -1141,8 +1144,8 @@
 								@include transitions(0.6s);
 
 								&:hover{
-									background-color: $light-gray;
-									color: #fff;
+									border: 1px solid $black;
+									color: $black;
 								}
 
 								p{
@@ -1257,60 +1260,102 @@
 		    }
 		}
 
-
-
-		.sprite{
-			background-image: url(../img/icons/sprite_nav.png);
-		    background-repeat: no-repeat;
-		    display: block;
-		}
-
-		.sprite-mouse{
-			width: 40px;
-		    height: 65px;
-		    background-position: -5px -90px;
-		}
-		.sprite-upKey{
-			width: 32px;
-		    height: 32px;
-		    background-position: -55px -5px;
-		}
-		.sprite-downKey{
-			width: 32px;
-		    height: 32px;
-		    background-position: -55px -42px;
-		}
-		.sprite-leftKey{
-			width: 32px;
-		    height: 32px;
-		    background-position: -55px -79px;
-		}
-		.sprite-rightKey{
-			width: 32px;
-		    height: 32px;
-		    background-position: -55px -116px;
-		}
-
-		.sprite-leftArrow{
-			width: 20px;
-		    height: 35px;
-		    background-position: -5px -5px;
-		}
-		.sprite-rightArrow{
-			width: 20px;
-		    height: 35px;
-		    background-position: -30px -5px;
-		}
-
-		.sprite-downArrow{
-			width: 40px;
-		    height: 40px;
-		    background-position: -5px -45px;
-		}
-
-		
 	}
 // END GENERAL
+
+
+// MOBILE
+	#mobileWrapper{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		overflow: hidden;
+		z-index: 1000;
+		display: none;
+		font-size: 20px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		-webkit-font-smoothing: antialiased !important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+		color: $mid-gray;
+
+		.vertical{
+			display: none;
+		}
+
+		.centeredBox{
+			position: absolute;
+			width: 80%;
+			min-width: 300px;
+			height: 40%;
+			min-height: 360px;
+			margin: auto;
+			top: 0; bottom: 0; left: 0; right: 0;
+			text-align: center;
+
+			.innerRows{
+				position: relative;
+				display: table;
+				float: left;
+				width: 100%;
+			}
+
+			.adviceBox{
+				height: 35%;
+				padding: 20px 15px;
+				@include boxSizeFit();
+
+				p{
+					display: table-cell;
+					vertical-align: middle;
+				}
+			}
+			.iconsBox{
+				height: 25%;
+
+				.devicesBox{
+					position: absolute;
+					width: 300px;
+					height: 110px;
+					margin: auto;
+					left: 0; right: 0;
+					bottom: 0;
+					padding: 0;
+
+					i{
+						position: absolute;
+						margin: auto;
+						bottom: 0;
+					}
+
+					.sprite-DeviceDesk{left: 5px;}
+					.sprite-DeviceLap{left: 25px; right: 0;}
+					.sprite-DeviceTab{right: 10px;}
+				}
+			}
+			.thanksBox{
+				height: 30%;
+
+				p{
+					display: table-cell;
+					vertical-align: middle;
+				}
+			}
+			.signatureBox{
+				height: 10%;
+
+				img{
+					position: absolute;
+					width: 180px;
+					height: auto;
+					margin: auto;
+					left: 0; right: 0; top: 0; bottom: 0;
+				}
+			}
+		}
+	}
+// END MOBILE
 
 
 // RESPONSIVE STYLES
